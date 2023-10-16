@@ -1,0 +1,24 @@
+
+/* parte escrita versace bazar */
+.parte_escrita_versace_bazar {
+    position: relative;
+    top: -225px;
+    left: 70px;
+    
+}
+
+.escrita_bazar_versace{
+    width: 360px; 
+}
+
+/*paragrafo*/
+.parte_do_paragrafo_precision_and_heritage {
+    display: flex;
+    justify-content: center;
+}
+
+.paragrafo_precision_and_heritage{
+    text-align: center;
+    width: 700px;
+
+}

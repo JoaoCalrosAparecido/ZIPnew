@@ -1,0 +1,51 @@
+:root {
+    --corpartesuperior: #292727;
+    --cordapartesuperiorverde: #084b4b;
+}
+
+
+/* parte superior do desconto na primeira compra */
+
+
+#parte_superior{
+    
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    background-color: var(--corpartesuperior);
+    height: 31px;
+    width: 100% ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#parte_superior > p{
+    font-size: 17PX;
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    position: relative;
+    
+    
+
+}
+
+
+/* parte das setas */
+.setas_parte_superior {
+    position: fixed;
+    left: 455px;
+    top: 9px;
+    z-index: 10;
+    display: flex;
+    column-gap: 590px;
+    width: 13px;
+    height: 13px;
+
+}
+
+/* seta direita */
+.seta_direita_parte_superior {
+    transform: rotate(180deg);
+}

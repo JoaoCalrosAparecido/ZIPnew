@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" href="css-cadastro/parte_superior-cadastro.css">
+    <link rel="stylesheet" href="css-cadastro/menu-cadastro.css">
+    <link rel="stylesheet" href="css-cadastro/formulario.css">
+    <link rel="stylesheet" href="css-cadastro/rodape_cadastro.css">
+
+    <link rel="shortcut icon" href="IMG/fivecon/logo preta grande.ico" type="image/x-icon">
+
+</head>
+<body>
+     <!-- parte superior do desconto na primeira compra -->
+     <section>
+        <article>
+            <div id="parte_superior">
+                <p>10% OFF* na primeira compra. Faça já a sua assinatura da ZIP+!  </p> 
+            </div>
+            <!--parte das setas-->
+            <div class="setas_parte_superior">
+                <img class="seta_esquerda_parte_superior" src="IMG/parte superior do desconto na primeira compra REFEITO/seta_esquerda.svg" alt="">
+                <img class="seta_direita_parte_superior" src="IMG/parte superior do desconto na primeira compra REFEITO/seta_direita.svg" alt="">
+            </div>
+        </article>
+    </section>
+
+
+    <!--menu principal-->
+    <section>
+        <!--area do menu que contem os links-->
+        <article id="menu_principal">
+            <div id="div_menu_principal">
+                <a href="">NEW IN</a>
+                <a href="">MARCAS</a>
+                <a href="bazar.html">BAZAR</a>
+                <a href="">FEMININO</a>
+                <a href="">MASCULINO</a>
+                <a href="">INFANTIL</a>
+                <a href="">ACESSÓRIOS</a>
+                <a href="">JEANS CULTURE</a>
+                <a href="">GIFTS</a>
+            </div>
+        </article>
+
+        <!--imagem da zip-->
+        <article>
+            <figure>
+                <a href="index.html"><img id="menu_imagem_zip" src="IMG/area_do_menu/imagem_zip_REFEITA.png" alt=""></a>
+            </figure>
+        </article>
+
+        <!--imagem da barra de pesquisa e etc-->
+        <article>
+            <figure id="imagem_da_barra_de_pesquisa_e_etc">
+                <img id="imagem_da_barra_de_pesquisa" src="IMG/area_do_menu/icone_de_pesquisa.svg" alt="">
+                <img id="imagem_do_icone_de_favorito" src="IMG/area_do_menu/icone_de_favorito.svg" alt="">
+                <a href="login_do_usuario.html"><img id="imagem_do_icone_de_pessoa" src="IMG/area_do_menu/icone_de_pessoa.svg" alt=""></a>
+                <img id="imagem_do_icone_da_conta" src="IMG/area_do_menu/icone_de_conta.svg" alt="">
+            </figure>
+        </article>
+
+
+    </section>
+
+    <!--forms de cadastro-->
+
+    <section id="caixa">
+        <h2 id="cadastro">CADASTRO</h2>
+        <div class="abaixar">
+            <form id="formulario" action="" method="post">
+                <div id="forms">
+                    <label id="lblnome">Nome* </label>
+                    <br>
+                    <input type="text" name="nome" id="nome" maxlength="50">
+                    <br>
+                    <label id="lblemail">Email* </label>
+                    <br>
+                    <input type="email" name="email" id="email" maxlength="40">
+                    <br>
+                    <label id="lblsenha">Senha* </label>
+                    <br>
+                    <input type="password" name="senha" id="senha"  maxlength="40">
+                    <br>
+                    <label id="lblsenha">Confirme a senha* </label>
+                    <br>
+                    <input type="password" name="senha" id="senha" maxlength="40">
+                    <br>
+                    <label id="lblnascimento">Data de nascimento </label>
+                    <br>
+                    <input type="date" name="nascimento" id="nascimento"  maxlength="40">
+                    <br>
+                    <label id="lbluf">Estado* </label>
+                    <input type="hidden">
+                    <br>
+                    <select id="UF" >
+                    <option value="AC">AC</option>
+                    <option value="AL">AL</option>
+                    <option value="AM">AM</option>
+                    <option value="AP">AP</option>
+                    <option value="BA">BA</option>
+                    <option value="CE">CE</option>
+                    <option value="DF">DF</option>
+                    <option value="ES">ES</option>
+                    <option value="GO">GO</option>
+                    <option value="MA">MA</option>
+                    <option value="MG">MG</option>
+                    <option value="MT">MT</option>
+                    <option value="PA">PA</option>
+                    <option value="PB">PB</option>
+                    <option value="PE">PE</option>
+                    <option value="PI">PI</option>
+                    <option value="PR">PR</option>
+                    <option value="RJ">RJ</option>
+                    <option value="RN">RN</option>
+                    <option value="RO">RO</option>
+                    <option value="RR">RR</option>
+                    <option value="RS">RS</option>
+                    <option value="SC">SC</option>
+                    <option value="SE">SE</option>
+                    <option value="SP" selected>SP</option>
+                    <option value="TO">TO</option>
+                    <br>
+                    <input type="hidden">
+                    <br>
+                    <label id="lblcep">CEP </label>
+                    <br>
+                    <input type="text" name="cep" id="cep" size="15" maxlength="9" placeholder="00000-000">
+                    <br>
+                <input type="submit" value="Cadastre-se" id="botao" >
+            </div>
+        </div>
+
+    </section>
+    <img src="IMG/cadastro/rapaiz_refeito.png" id="foto" width="">
+
+
+       <!--rodapé-->
+       <section class="rodape">
+        <!--primeira seção-->
+        <article>
+            <h1 class="rodape_h1 institucional">
+                institucional
+            </h1>
+            <ul class="lista_do_rodape_parte_1">
+                <li class="rodape_paragrafo institucional">sobre a ZIP</li>
+                <li class="rodape_paragrafo institucional">fornecedores</li>
+                <li class="rodape_paragrafo institucional">termos e condições</li>
+                <li class="rodape_paragrafo institucional">política de privacidade</li>
+                <li class="rodape_paragrafo institucional">configurações de privacidade</li>
+                <li class="rodape_paragrafo institucional">trabalhe conosco</li>
+                <li class="rodape_paragrafo institucional">sustentabilidade</li>
+                <li class="rodape_paragrafo institucional">mapa do site</li>
+                <li class="rodape_paragrafo institucional">investidores</li>
+                <li class="rodape_paragrafo institucional">sala de imprensa</li>
+                <li class="rodape_paragrafo institucional">blog ZIP</li>
+            </ul>
+        </article>
+        <!--segunda seção-->
+        <article>
+            <!--parte ZIP&VC-->
+            <h1 class="rodape_h1 segunda_secao_parte_1_h1">
+                ZIP&VC
+            </h1>
+
+            <ul class="lista_do_rodape segunda_secao_parte_1_ul">
+                <li class="rodape_paragrafo">participe do programa</li>
+            </ul>
+
+            <!--parte cartão ZIP-->
+            <h1 class="rodape_h1 segunda_secao_parte_2_h1">
+                cartão ZIP
+            </h1>
+
+            <ul class="lista_do_rodape segunda_secao_parte_2_ul">
+                <li class="rodape_paragrafo">sobre o cartão ZIP</li>
+            </ul>
+
+            <!--parte ZIP Pay-->
+            <h1 class="rodape_h1 segunda_secao_parte_3_h1">
+                ZIP Pay
+            </h1>
+
+            <ul class="lista_do_rodape segunda_secao_parte_3_ul">
+                <li class="rodape_paragrafo">solicite seu cartão</li>
+            </ul>
+
+            <ul class="lista_do_rodape segunda_secao_parte_3_ul">
+                <li class="rodape_paragrafo">tire sua dúvida por e-mail</li>
+            </ul>
+            
+            <!--parte cartão presente-->
+            <h1 class="rodape_h1 segunda_secao_parte_4_h1">
+                cartão presente
+            </h1>
+
+            <ul class="lista_do_rodape segunda_secao_parte_4_ul">
+                <li class="rodape_paragrafo">sobre o cartão presente ZIP</li>
+            </ul>
+            
+        </article>
+        
+        <!--parte 3-->
+        <article class="terceira_secao">
+            <h1 class="rodape_h1 ">
+                serviços
+            </h1>
+
+            <ul class="lista_do_rodape lista_terceira_secao">
+                <li class="rodape_paragrafo">tipos de entrega</li>
+                <li class="rodape_paragrafo">clique & retire</li>
+                <li class="rodape_paragrafo">trocas & devoluções</li>
+                <li class="rodape_paragrafo">formas de pagamento</li>
+                <li class="rodape_paragrafo">todas as vantagens</li>
+                <li class="rodape_paragrafo">minha ZIP</li>
+            </ul>
+
+            <div class="terceita_secao_bazar">
+                <h1 class="rodape_h1 ">
+                    bazar
+                </h1>
+
+                <ul class="lista_do_rodape">
+                    <li class="rodape_paragrafo">veja coleção</li>
+                </ul>
+
+            </div>
+
+        </article>
+
+        <!--parte 4-->
+        <article class="quarta_secao">
+            <h1 class="rodape_h1 ">
+                marketplace ZIP
+            </h1>
+
+            <div class="lista_quarta_secao">
+                <ul class="lista_do_rodape ">
+                    <li class="rodape_paragrafo">venda na ZIP</li>
+                    <li class="rodape_paragrafo">marketplace</li>
+                </ul>
+            </div>
+
+        </article>
+
+        <!--icones do instagram e etc-->
+        <figure class="icones_do_instagram_e_etc_do_rodape">
+            <img src="IMG/rodape/icones_do_instagram_e_etc.png" alt="">
+        </figure>
+
+        <!--©Copyright2023  -->
+        <article class="copyright">
+                <h1 class="h1_do_copyright">
+                    © Copyright - 2023 -
+                </h1>
+        </article>
+    </section>
+
+</body>
+</html>

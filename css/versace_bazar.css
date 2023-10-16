@@ -1,0 +1,86 @@
+:root {
+    --cordobotaoverde: #0C7070;
+    --cordobotaopretoacizentado: #292727;
+}
+
+.section_do_vesace_-_bazar{
+    position: relative;
+    top: 110px;
+}
+
+/* video de fundo */
+.video_versace_bazar {
+    position: relative;
+    top: 38px;
+}
+
+
+/* parte escrita versace - bazar */
+
+.parte_escrita_versace_bazar {
+    position: absolute;
+    z-index: 20px;
+    left: 28px;
+    width: 300px;
+    bottom: 10px;
+    
+}
+
+.parte_escrita_versace_bazar_img{
+    position: relative;
+    z-index: 30px;
+    top:  -370px;
+    left: 886px;
+
+}
+
+
+/* parte do botão */
+
+#parte_dos_botoes{
+    display: flex;
+    column-gap: 3px;
+    position: absolute;
+    top: 730px;
+    left: 796px;
+}
+
+/* botoes */
+.botao_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+    height: 55px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.botao_1:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cordobotaopretoacizentado);
+    color: white;
+}
+
+.botao_1 p{
+    font-weight: bolder;
+    font-family: 'Lucida Sans Unicode', 'sans-serif' ;
+}
+
+.botao_2 {
+    border: 2px solid var(--cordobotaopretoacizentado);
+    width: 328px;
+    height: 53px;
+}
+
+/* section do vesace - bazar */
+
+#section_do_vesace_-_bazar{
+    position: relative;
+    position: relative;
+    top: 100px;
+    
+
+}

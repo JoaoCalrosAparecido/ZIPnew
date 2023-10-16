@@ -1,0 +1,36 @@
+/*section*/
+.cat_down_section {
+    position: relative;
+    top: 1080px;
+
+}
+
+/*parte escrita*/
+/*article*/
+.parte_escrita_cat_down_article {
+    display: flex;
+    justify-content: center;
+}
+
+/*img*/
+.parte_escrita_cat_down_img {
+    width: 260px;
+}
+
+/*parte do paragrafo*/
+/*article*/
+.parte_do_paragrafo_cat_down_article {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 12px;
+
+}
+
+/*paragrafo*/
+.parte_do_paragrafo_cat_down_paragrafo {
+    width: 875px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}

@@ -1,0 +1,71 @@
+<!--parte dos relogios2-->
+<section>
+       
+    <!--relogios-->
+    <article class="relogios_article">   
+         <!-- Slider container -->
+<div class="slider2">
+<!-- slide 1 -->
+<div class="slide2">
+ <div class="relogios-grupo">
+    <div>
+        <div class="relogio1_bazar"></div>
+        <div class="parte_escrita_relogio">
+            <p class="relogios_paragrafo">Grecca Logo Monph Watch</p>
+            <p class="relogios_paragrafo_preco">R$ 10.800,00</p>
+        </div>
+    </div>
+
+    <div>
+        <div class="relogio2_bazar"></div>
+        <div class="parte_escrita_relogio">
+            <p class="relogios_paragrafo">Grecca Logo Monph Watch</p>
+            <p class="relogios_paragrafo_preco">R$ 4.900,00</p>
+        </div>
+    </div>
+
+    <div>
+        <div class="relogio3_bazar"></div>
+        <div class="parte_escrita_relogio">
+            <p class="relogios_paragrafo">Grecca Logo Monph Watch</p>
+            <p class="relogios_paragrafo_preco">R$ 2.500,00</p>
+        </div>
+    </div>
+
+    <div style="opacity: 60%;">
+        <div class="relogio4_bazar"></div>
+        <div class="parte_escrita_relogio">
+            <p class="relogios_paragrafo">Grecca Logo Monph </p>
+            <p class="relogios_paragrafo_preco">R$ 11.700,00</p>
+        </div>
+    </div>
+    <!--fim grupo-->
+ </div>
+</div>
+
+<!-- slide 2 -->
+<div class="slide2">
+    <div class="relogios-grupo">
+        <div>
+            <div class="relogio5_bazar"></div>
+            <div class="parte_escrita_relogio">
+                <p class="relogios_paragrafo">Grecca Logo Monph Watch</p>
+                <p class="relogios_paragrafo_preco">R$ 11.700,00</p>
+            </div>
+        </div>
+
+        <!--fim grupo-->
+     </div>
+</div>
+
+
+<!-- Control buttons -->
+<button class="btn btn-next2"><img src="IMG/bazar/parte_dos_relogios/seta.png" alt=""> 
+ </button>
+<button class="btn btn-prev2"> voltar </button>
+</div>                     
+    </article>
+    
+</section>
+    
+    <script src="teste.js"></script>

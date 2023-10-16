@@ -1,0 +1,167 @@
+/* area da ssection */
+
+
+.rodape {
+    height: 500px;
+    background-color: #212121;
+    position: relative;
+    top: -504px;
+}
+
+/* h1 */
+.rodape_h1 {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+}
+
+/* paragrafos */
+.rodape_paragrafo {
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    list-style-type: none;
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+}
+
+/* pirmeira seção */
+.institucional {
+    position: relative;
+    left: 75px;
+    top: 75px;
+}
+
+.lista_do_rodape_parte_1 {
+    position: relative;
+    top: 20px;
+    list-style-type: none;
+}
+
+/* segunda seção */
+
+/* parte 1 */ 
+.segunda_secao_parte_1_h1 {
+    position: relative;
+    top: -224px;
+    left: 425px;
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+} 
+
+.segunda_secao_parte_1_ul {
+    position: relative;
+    top: -224px;
+    left: 425px;
+    list-style-type: none;
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+}
+
+/* parte 2 */
+.segunda_secao_parte_2_h1 {
+    position: relative;
+    top: -204px;
+    left: 425px;
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+} 
+
+.segunda_secao_parte_2_ul {
+    position: relative;
+    top: -204px;
+    left: 425px;
+    list-style-type: none;
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+}
+
+/* parte 3 */
+.segunda_secao_parte_3_h1 {
+    position: relative;
+    top: -184px;
+    left: 425px;
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+} 
+
+.segunda_secao_parte_3_ul {
+    position: relative;
+    top: -184px;
+    left: 425px;
+    list-style-type: none;
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+}
+
+/* parte 4 */
+.segunda_secao_parte_4_h1 {
+    position: relative;
+    top: -164px;
+    left: 425px;
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+} 
+
+.segunda_secao_parte_4_ul {
+    position: relative;
+    top: -164px;
+    left: 425px;
+    list-style-type: none;
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+}
+
+
+
+/* icones do instagram e etc */
+.icones_do_instagram_e_etc_do_rodape {
+    position: relative;
+    top: -95px;
+    left: 1040px;
+    z-index: 1;
+}
+
+/* ©Copyright2023 */
+.copyright{
+    background-color: #212121;
+    width: 1522;
+    height: 70px;
+    position: relative;
+    top: -68px;
+}
+
+.h1_do_copyright {
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 25px;
+    left: 47px;
+
+}
+
+/* terceira seçâo */
+
+.terceira_secao {
+    position: absolute;
+    top: 75px;
+    left: 800px;
+    z-index: 1;
+}
+
+.lista_terceira_secao {
+    position: relative;
+    top: 20px;
+}
+
+.terceita_secao_bazar {
+    position: relative;
+    top: 43px;
+}
+
+/* quarta seção */
+.quarta_secao {
+    position: absolute;
+    top: 75px;
+    left: 1120px;
+    z-index: 1;
+}
+
+.lista_quarta_secao {
+    position: relative;
+    top: 20px;
+}

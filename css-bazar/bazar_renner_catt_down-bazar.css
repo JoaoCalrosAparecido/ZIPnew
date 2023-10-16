@@ -1,0 +1,20 @@
+/*section*/
+.bazar_renner_catt_down_section {
+    position: relative;
+    top: 960px;
+    overflow: hidden;
+    height: 870px;
+}
+
+/*parte escrita*/
+/*article*/
+.parte_escrita_article {
+    position: relative;
+    top: -230px;
+    left: 50px;
+}
+
+/*img*/
+.parte_escrita_img {
+    width: 330px;
+}
