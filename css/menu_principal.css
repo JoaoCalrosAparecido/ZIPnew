@@ -26,10 +26,10 @@
     width: 1330px;
     position: relative;
     display: flex;
-    column-gap: 17px;
+    column-gap: 19.7px;
     position: relative;
-    left: 148px;
-    top: 30px;
+    left: 108px;
+    top: 40px;
 
 
 }
@@ -38,10 +38,10 @@
     font-family: 'Poppins', sans-serif;
     position: relative;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 12.1px;
     color: black;
     left: 30px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 #div_menu_principal > a:hover{
@@ -49,28 +49,27 @@
     color: rgb(31, 28, 28);
 }
 
-/**/
+/*logo imagem*/
 
-.logo_zip_menu {
-    z-index: 2;
+#logo_zip_menu {
     position: fixed;
-    left: 45px;
-    top: 27px;
+    top: 35px;
+    left: 27px;
 }
 
-.logo_zip_menu > p {
-    font-size: 55px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    letter-spacing: -4px;
-    
+#logo_zip_menu_imagem {
+    width: 70px;
+}
 
-
-    
-    
+.teste {
+    position: fixed;
+    top: 200px;
 }
 
 
+
+
+/* barra_de_pesquisa_e_etc */
 
 
 
@@ -79,11 +78,11 @@
 #imagem_da_barra_de_pesquisa_e_etc {
     z-index: 1;
     position: fixed;
-    top: 140px;
+    top: 149px;
     display: flex ;
     column-gap: 20.7px;
     right: 42px;
-    top: 66px;
+    top: 69px;
     
 }
 
@@ -92,16 +91,16 @@
 #imagem_da_barra_de_pesquisa{
     transform: rotate(315deg);
     position: relative;
-    top: -1px;
-    width: 11px;
-    height: 18px;
+    top: 1.5px;
+    width: 11.5px;
+    height: 18.5px;
 }
 
 /* imagem do icone de favorito */
 
 #imagem_do_icone_de_favorito{
     position: relative;
-    top: 0px;
+    top: 2.5px;
     width: 16px;
     height: 16px;
 }
@@ -110,7 +109,7 @@
 
 #imagem_do_icone_de_pessoa {
     position: relative;
-    top: -2px;
+    top: 0.5px;
     width: 14.5px;
     height: 18.5px;
 }
@@ -119,7 +118,7 @@
 
 #imagem_do_icone_da_conta {
     position: relative;
-    top: -1px;
+    top: 1px;
     width: 23px;
     height: 17px;
 }
