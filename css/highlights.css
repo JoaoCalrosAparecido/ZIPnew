@@ -2,6 +2,10 @@
 
 /* parte do highlights */
 
+#parte_do_highlights{
+    height: 1300px;
+}
+
 #parte_do_slide_onde_contém_o_Tote_Bags{
     height: 646px;
     display: flex;
@@ -15,21 +19,21 @@
 
 .parte_escrita_highlights {
     position: relative;
-    top: -305px;
-    left: 113px;
-    width: 430px;
-    height: 430PX;
+    top: 135px;
+    left: 235px;
+    width: 120px;
+
 }
 
 /*imagens e setas do highlights*/
 
 #imagens_e_setas_do_highlights {
     display: flex;
-    column-gap: 13px;
+    column-gap: 14px;
     position: relative;
-    left: 470px;
+    left: 435px;
     bottom: 50px;
-    top: -665px;
+    top: 17px;
 }
 
 .imagens_do_highlights {
@@ -40,15 +44,15 @@
 /* imagens do highlights*/
 
 .imagens_do_highlights {
-    width: 161px;
-    height: 161px;
+    width: 166px;
+    height: 166px;
 }
 
 /* setas */
 
 .seta_highlights {
     position: relative;
-    top: -619px;
+    top: 62px;
     width: 12px;
     height: 20px;
     background-color: rgb(243, 245, 247);
@@ -56,10 +60,10 @@
 
 .setas_do_highlights{
     display: flex;
-    column-gap: 841px;
+    column-gap: 863px;
     position: relative;
-    top: -160px;
-    left: 650px;
+    top: -158px;
+    left: 620px;
 
 }
 
@@ -85,19 +89,19 @@
     font-size: 5px;
 }
 
-.texto_das_imagens_do_womens_suits {
+.texto_das_imagens_do_womens_boots {
     font-family: 'Poppins', sans-serif;
     position: relative;
-    left: 216PX;
+    left: 218PX;
     font-size: 12px;
     font-weight: bold;
 }
 
 
-.texto_das_imagens_do_highlights_womens_shoes {
+.texto_das_imagens_do_highlights_mens_shoes {
     font-family: 'Poppins', sans-serif;
     position: relative;
-    left: 217px;
+    left: 232px;
     font-size: 12px;
     font-weight: bold;
 }
@@ -105,7 +109,7 @@
 .texto_das_imagens_do_highlights_mens_bag{
     font-family: 'Poppins', sans-serif;
     position: relative;
-    left: 231px;
+    left: 238px;
     font-size: 12px;
     font-weight: bold;
 }
@@ -113,7 +117,7 @@
 .texto_das_imagens_do_highlights_womens_jewrely {
     font-family: 'Poppins', sans-serif;
     position: relative;
-    left: 210px;
+    left: 213px;
     font-size: 12px;
     font-weight: bold;
 }
@@ -121,7 +125,7 @@
 .texto_das_imagens_do_highlights_grecca_goddess {
     font-family: 'Poppins', sans-serif;
     position: relative;
-    left: 216px;
+    left: 220px;
     font-size: 12px;
     font-weight: bold;
 }

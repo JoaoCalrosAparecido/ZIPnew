@@ -5,6 +5,7 @@
 #menu_principal_como_todo {
     position: fixed;
     z-index: 2;
+    opacity: 100%;
 }
 
 .menu_como_todo{
@@ -28,7 +29,7 @@
     display: flex;
     column-gap: 19.7px;
     position: relative;
-    left: 108px;
+    left: 100px;
     top: 40px;
 
 
@@ -53,7 +54,7 @@
 
 #logo_zip_menu {
     position: fixed;
-    top: 35px;
+    top: 38px;
     left: 27px;
 }
 
@@ -81,7 +82,7 @@
     top: 149px;
     display: flex ;
     column-gap: 20.7px;
-    right: 42px;
+    right: 44px;
     top: 69px;
     
 }
