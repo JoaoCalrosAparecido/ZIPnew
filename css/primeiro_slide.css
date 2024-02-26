@@ -4,6 +4,12 @@
     --cordosparagrafos: #292727;
 }
 
+
+.abaixar {
+    position: absolute;
+    top: 2000px;
+}
+
 .primeiro_slide{
     display: flex;
     margin-top: 100px;
