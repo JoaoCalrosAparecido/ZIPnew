@@ -1,7 +1,8 @@
 .login_inteiro {
     position: relative;
     top: 420px;
-    right: 40px;
+    right: 0%;
+
 }
 
 
@@ -97,5 +98,6 @@ form input[type=submit]{
     margin-left: 20px;
     margin-top: 40px;
 }
+
 
 
