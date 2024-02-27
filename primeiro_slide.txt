@@ -1,0 +1,47 @@
+ <section class="abaixar">
+        <section class="primeiro_slide">
+                <article>
+                    <div class="slide">
+                            <div class="conteudo1 slide-in">
+                    <div class="numero1"> <div class="slide_grande1"></div>
+                    <p class="p1_parte1">Hourgless</p>
+                    <p class="p1_parte2">Double-</p>
+                    <p class="p1_parte3">Brasted Blazer</p>
+        
+                    <p class="preco1">R$ 7.250,00</p>
+                    </div>
+        
+                    <div class="display">
+                        <div>
+                            <div class="slide_pequeno1"></div>
+                            <p class="slide_pequeno_paragrafo1">Bermuda Preta da Alfaiataria</p>
+                            <p class="preco_slide_pequeno1">R$ 8,00</p>
+                        </div>
+                        <div>
+                            <div class="slide_pequeno2"></div>
+                            <p class="slide_pequeno_paragrafo2">Medusa Cropped Top Versace</p>
+                            <p class="preco_slide_pequeno2">R$ 1.100,00</p>
+                        </div>
+                        <div>
+                            <div class="slide_pequeno3"></div>
+                            <p class="slide_pequeno_paragrafo3">Salto 10cm Preto de Bico Fino</p>
+                            <p class="preco_slide_pequeno3">R$ 25,00</p>
+                        </div>
+                    </div>
+                            </div>
+        
+        
+                    </div>
+                            </div>
+        
+                        </div>
+        
+                        <script src="primeiro_slide.js"></script>
+                </article>
+        </section>
+        <article>
+            <div class="setas">
+                <img id="setaesquerda" class=" seta seta-esquerda" src="IMG/primeiro_slide/slide_atualizado1/seta_esquerda.png" alt="">
+                <img id="setadireita" class=" seta seta-direita" src="IMG/primeiro_slide/slide_atualizado1/seta_direita.png" alt=""></div>
+        </article>
+    </section>

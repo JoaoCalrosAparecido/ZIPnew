@@ -2,26 +2,33 @@
 
 /* parte do highlights */
 
-#parte_do_highlights{
-    height: 1300px;
+#parte_do_new_in{
+    width: 100%;
+    position: relative;
+    top: 45px;
+    height: 405px;
+
 }
 
 #parte_do_slide_onde_contém_o_Tote_Bags{
-    height: 646px;
     display: flex;
     flex-direction: row;
-    width: 1920px;
+    width: 100%;
     position: relative;
-    top: -100px;
 }
 
 /* parte escrita highlights */
 
+#parte_escrita_new_in {
+    position: relative;
+    top: 40%;
+    left: 18%;
+}
+
 .parte_escrita_highlights {
     position: relative;
-    top: 135px;
-    left: 235px;
-    width: 120px;
+
+    width: 8%;
 
 }
 
@@ -29,30 +36,31 @@
 
 #imagens_e_setas_do_highlights {
     display: flex;
-    column-gap: 14px;
+    column-gap: 1.4%;
     position: relative;
-    left: 435px;
-    bottom: 50px;
-    top: 17px;
+    left: 31.5%;
+    top: 170%;
 }
 
 .imagens_do_highlights {
     position: relative;
     left: 185px;
+    width: 108%;
+    height: 95%;
+    top: 16%;
 }
 
 /* imagens do highlights*/
 
 .imagens_do_highlights {
-    width: 166px;
-    height: 166px;
+    width: 103%;
+    height: 90%;
 }
 
 /* setas */
 
 .seta_highlights {
     position: relative;
-    top: 62px;
     width: 12px;
     height: 20px;
     background-color: rgb(243, 245, 247);
@@ -60,10 +68,10 @@
 
 .setas_do_highlights{
     display: flex;
-    column-gap: 863px;
-    position: relative;
-    top: -158px;
-    left: 620px;
+    column-gap: 1098px;
+    position: absolute;
+    top: 44%;
+    left: 41%;
 
 }
 
@@ -86,14 +94,16 @@
     font-family: 'Poppins', sans-serif;
     position: relative;
     left: 209px;
+    top: 10%;
     font-size: 5px;
 }
 
 .texto_das_imagens_do_womens_boots {
     font-family: 'Poppins', sans-serif;
     position: relative;
-    left: 218PX;
-    font-size: 12px;
+    left: 107%;
+    top: 16%;
+    font-size: 100%;
     font-weight: bold;
 }
 
@@ -101,32 +111,36 @@
 .texto_das_imagens_do_highlights_mens_shoes {
     font-family: 'Poppins', sans-serif;
     position: relative;
-    left: 232px;
-    font-size: 12px;
+    left: 117%;
+    top: 16%;
+    font-size: 100%;
     font-weight: bold;
 }
 
 .texto_das_imagens_do_highlights_mens_bag{
     font-family: 'Poppins', sans-serif;
     position: relative;
-    left: 238px;
-    font-size: 12px;
+    left: 123%;
+    top: 16%;
+    font-size: 100%;
     font-weight: bold;
 }
 
 .texto_das_imagens_do_highlights_womens_jewrely {
     font-family: 'Poppins', sans-serif;
     position: relative;
-    left: 213px;
-    font-size: 12px;
+    left: 105%;
+    top: 16%;
+    font-size: 100%;
     font-weight: bold;
 }
 
 .texto_das_imagens_do_highlights_grecca_goddess {
     font-family: 'Poppins', sans-serif;
     position: relative;
-    left: 220px;
-    font-size: 12px;
+    left: 109%;
+    top: 16%;
+    font-size: 100%;
     font-weight: bold;
 }
 

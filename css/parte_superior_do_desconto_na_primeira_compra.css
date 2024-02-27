@@ -9,13 +9,18 @@
 /* parte superior do desconto na primeira compra */
 
 
+#section_parte_superior {
+    width: 100%;
+
+}
+
 
 #parte_superior{
     z-index: 1;
     position: fixed;
     top: 0;
     background-color: black;
-    height: 29px;
+    height: 4.2%;
     width: 100% ;
     color: white;
     display: flex;
@@ -24,7 +29,7 @@
 }
 
 #parte_superior > p{
-    font-size: 13PX;
+    font-size: 97%;
     font-family: 'Poppins', sans-serif;
     position: relative;
     
@@ -52,13 +57,13 @@
 /* parte das setas */
 .setas_parte_superior {
     position: fixed;
-    left: 465px;
-    top: 9px;
+    left: 31.5%;
+    top: 1.2%;
     z-index: 10;
     display: flex;
-    column-gap: 575px;
-    width: 13px;
-    height: 13px;
+    column-gap: 177.5%;
+    width: 20%;
+    height: 2%;
 
 }
 
