@@ -15,7 +15,7 @@
     list-style-type: none;
     font-size: 13px;
     font-weight: bold;
-    margin-top: 35px;
+    margin-top: 30px;
 
   }
 
@@ -28,6 +28,9 @@
   #cadas {
     margin-top: 115px;
     margin-bottom: 25px;
+    font-size: 22px;
+
+
   }
 
   #buffs {
@@ -48,6 +51,7 @@
 
   #qu {
     margin-top: 15px;
+    margin-bottom: 7px;
 
   }
 
@@ -58,7 +62,7 @@
 }
 
   input[type=submit]{
-    width: 88%;
+    width: 96%;
     height: 45px;
     cursor: pointer;
     background-color: rgb(255, 255, 255);
@@ -78,4 +82,14 @@
     font-family: 'Lucida Sans Unicode', Arial, sans-serif;
     height: 22rem;
   color: rgb(170, 170, 170);
+}
+
+
+.user{
+  margin-right: 10px;
+}
+
+.caminhas{
+  margin-right: 10px;
+
 }
