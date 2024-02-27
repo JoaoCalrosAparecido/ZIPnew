@@ -5,55 +5,63 @@ label {
 
 .abaixar {
     position: relative;
-    top: 79px;
+    top: 30px;
 }
 #caixa {
     background-color: #EEEEEE;
-    max-width: 120rem;
+    max-width: 100%;
     width: 100%;
-    height: 1000px;
+    height: 890px;
     padding: 20px;
     position: absolute;
-    top: 670px;
+    top: 620px;
     left: 50%;
+    margin-left: 0%;
     transform: translate(-50%,-50%);
     font-family: 'Lucida Sans Unicode', Arial, sans-serif;
     border: none;
 }
 
 #nome{
-    width: 40rem;
+    width: 50rem;
     height: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    border-radius: 1px;
+
 }
 #nascimento{
-    width: 40rem;
+    width: 50rem;
     height: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     font-size: 16px;
+    border-radius: 1px;
 }
 #senha{
-    width: 40rem;
+    width: 50rem;
     height: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    border-radius: 1px;
 }
 
 #email{
-    width: 40rem;
+    width: 50rem;
     height: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    border-radius: 1px;
 }
 
 
-#estado{
-    width: 40rem;
+#Sobrenome{
+    width: 50rem;
     height: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    border-radius: 1px;
 }
 #cep{
-    width: 40rem;
+    width: 50rem;
     height: 40px;
     margin-bottom: 15px;
+    border-radius: 1px;
 }
 
 #cadastro{
@@ -61,20 +69,16 @@ label {
     position: relative;
     left: 76px;
     bottom: -32px;
+
 }
-#UF{
-    font-size: 16px;
-    width: 40rem;
-    height: 40px;
-    margin-bottom: 30px;
-}
+
 
 #forms{
     margin-left: 80px;
 }
 
 #botao{
-    width: 40rem;
+    width: 50rem;
     height: 70px;
     cursor: pointer;
     background-color: rgb(36, 36, 36);
@@ -107,5 +111,11 @@ label {
     
 }
 
+#tornar{
+    margin-left: 80px;
+    margin-top: 60px;
+
+    
+}
 
 

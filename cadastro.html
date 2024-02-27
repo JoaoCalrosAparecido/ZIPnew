@@ -69,73 +69,32 @@
     <!--forms de cadastro-->
 
     <section id="caixa">
-        <h2 id="cadastro">CADASTRO</h2>
-        <div class="abaixar">
+        <h2 id="cadastro">CRIE UMA CONTA</h2>
+        <p id="tornar">Conecte-se a zip.com para obter os benefícios de um perfil</p>
+        <article class="abaixar">
+
             <form id="formulario" action="" method="post">
-                <div id="forms">
-                    <label id="lblnome">Nome* </label>
+                <section id="forms">
+                        <input type="text" name="nome" id="nome" maxlength="40" placeholder="    Nome*">
+                        <br>
+                    <input type="email" name="Sobrenome" id="Sobrenome" maxlength="40" placeholder="    Sobrenome*">
                     <br>
-                    <input type="text" name="nome" id="nome" maxlength="50">
+                        <input type="date" name="nascimento" id="nascimento"  maxlength="40">
+                        <br>
+                    <input type="email" name="email" id="email" maxlength="40" placeholder="    Email*">
                     <br>
-                    <label id="lblemail">Email* </label>
+                        <input type="password" name="senha" id="senha"  maxlength="40" placeholder="    Senha*">
+                        <br>
+                    <input type="password" name="senha" id="senha" maxlength="40" placeholder="    Confirme a senha">
                     <br>
-                    <input type="email" name="email" id="email" maxlength="40">
-                    <br>
-                    <label id="lblsenha">Senha* </label>
-                    <br>
-                    <input type="password" name="senha" id="senha"  maxlength="40">
-                    <br>
-                    <label id="lblsenha">Confirme a senha* </label>
-                    <br>
-                    <input type="password" name="senha" id="senha" maxlength="40">
-                    <br>
-                    <label id="lblnascimento">Data de nascimento </label>
-                    <br>
-                    <input type="date" name="nascimento" id="nascimento"  maxlength="40">
-                    <br>
-                    <label id="lbluf">Estado* </label>
-                    <input type="hidden">
-                    <br>
-                    <select id="UF" >
-                    <option value="AC">AC</option>
-                    <option value="AL">AL</option>
-                    <option value="AM">AM</option>
-                    <option value="AP">AP</option>
-                    <option value="BA">BA</option>
-                    <option value="CE">CE</option>
-                    <option value="DF">DF</option>
-                    <option value="ES">ES</option>
-                    <option value="GO">GO</option>
-                    <option value="MA">MA</option>
-                    <option value="MG">MG</option>
-                    <option value="MT">MT</option>
-                    <option value="PA">PA</option>
-                    <option value="PB">PB</option>
-                    <option value="PE">PE</option>
-                    <option value="PI">PI</option>
-                    <option value="PR">PR</option>
-                    <option value="RJ">RJ</option>
-                    <option value="RN">RN</option>
-                    <option value="RO">RO</option>
-                    <option value="RR">RR</option>
-                    <option value="RS">RS</option>
-                    <option value="SC">SC</option>
-                    <option value="SE">SE</option>
-                    <option value="SP" selected>SP</option>
-                    <option value="TO">TO</option>
-                    <br>
-                    <input type="hidden">
-                    <br>
-                    <label id="lblcep">CEP </label>
-                    <br>
-                    <input type="text" name="cep" id="cep" size="15" maxlength="9" placeholder="00000-000">
-                    <br>
-                <input type="submit" value="Cadastre-se" id="botao" >
-            </div>
-        </div>
+                        <input type="text" name="cep" id="cep" size="15" maxlength="9" placeholder="    CEP*">
+                        <br>
+
+                <input type="submit" value="CONECTE-SE" id="botao" >
+                </section>
+        </article>
 
     </section>
-    <img src="IMG/cadastro/rapaiz_refeito.png" id="foto" width="">
 
 
        <!--rodapé-->
