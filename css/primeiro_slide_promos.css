@@ -3,7 +3,7 @@
 .section_slide_promos {
   position: relative;
   top: 10px;
-  left: 700px;
+  left: ;
   display: flex;
 }
 
@@ -211,8 +211,8 @@
   }
 
   .Produto_principal_promos{
-    width: 454px;
-    height: 609px;
+    width: 493px;
+    height: 616px;
 
     background-color: rgb(199, 186, 212);
   }
