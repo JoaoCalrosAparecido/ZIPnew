@@ -6,7 +6,7 @@
     position: fixed;
     z-index: 2;
     opacity: 100%;
-    top: 4.3%;
+    top: 4.24%;
 }
 
 .menu_como_todo{
@@ -18,7 +18,7 @@
     position: fixed;
     background-color: rgb(255, 255, 255);
     width: 100%;
-    height: 12%;
+    height: 95px;
 
     
 }
@@ -30,7 +30,7 @@
     column-gap: 1.4%;
     position: relative;
     left: 8.4%;
-    top: 56.5%;
+    top: 55.9%;
 
 
 }
@@ -39,7 +39,7 @@
     font-family: 'Poppins', sans-serif;
     position: relative;
     text-decoration: none;
-    font-size: 100%;
+    font-size: 15px;
     color: black;
     font-weight: 500;
 }
@@ -53,12 +53,13 @@
 
 #logo_zip_menu {
     position: fixed;
-    top: 6%;
-    left: 1%;
+    top: 5.3%;
+    left: 2%;
 }
 
 #logo_zip_menu_imagem {
     width: 105%;
+    height: ;
 }
 
 .teste {
@@ -80,8 +81,8 @@
     position: fixed;
     display: flex ;
     column-gap: 20.7px;
-    right: 3%;
-    top: 11.3%;
+    right: 2.3%;
+    top: 10.75%;
     height: 2.3%;
     
 }
@@ -92,7 +93,8 @@
     transform: rotate(315deg);
     position: relative;
     top: 1.5px;
-    height: 130%;
+    height: 25px;
+    width: 16px;
 }
 
 
@@ -102,7 +104,8 @@
 #imagem_do_icone_de_favorito{
     position: relative;
     top: 2.5px;
-    height: 100%;
+    height: 19px;
+    width: 20px;
 }
 
 /* imagem do icone de pessoa */
@@ -110,7 +113,8 @@
 #imagem_do_icone_de_pessoa {
     position: relative;
     top: 0.5px;
-    width: 93%;
+    width: 17px;
+    height: 21px;
 }
 
 /* imagem do icone da conta */
@@ -118,5 +122,6 @@
 #imagem_do_icone_da_conta {
     position: relative;
     top: 1px;
-    height: 100%;
+    height: 21px;
+    width: 26px;
 }

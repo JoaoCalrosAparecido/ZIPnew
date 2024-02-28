@@ -21,8 +21,8 @@
 
 #parte_escrita_versace_-_bazar {
     position: absolute;
-    top:  76%;
-    left: 75%;
+    top:  77%;
+    left: 77.4%;
 
 
     
@@ -30,7 +30,7 @@
 }
 
 .parte_escrita_versace_bazar_img{
-    width: 138.3%;
+    width: 120.3%;
 
     
 
@@ -44,9 +44,9 @@
     column-gap: 4px;
     position: absolute;
     top: 86.5%;
-    left: 71.3%;
-    width: 23%;
-    height: 4%;
+    left: 72%;
+    width: 420px;
+    height: 41px;
 }
 
 /* botoes */
@@ -70,8 +70,8 @@
 
 .botao_1 p{
     font-family: 'Poppins', sans-serif;
-    font-size: 100%;
-    font-weight: bold;
+    font-size: 15px;
+    font-weight: bolder;
 }
 
 .botao_2 {
