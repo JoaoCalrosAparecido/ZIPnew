@@ -18,7 +18,7 @@
 /*slide1*/
 
 
-.relogio1_bazar{
+#slide_secundario_promos_produto1{
     position: relative;
     top: 34.5%;
     width: 376px;
@@ -27,12 +27,12 @@
     background-position: 20%;
 }
 
-.relogio1_bazar:hover {
+#slide_secundario_promos_produto1:hover {
   background-image: url('../IMG/bazar/parte_dos_relogios/relogio1_hover_refeito.png');
 }
 
 /*slide2*/
-.relogio2_bazar {
+#slide_secundario_promos_produto2 {
   position: relative;
   top: 34.5%;
   width: 376px;
@@ -40,12 +40,12 @@
   background-image: url('../IMG/primeiro_slide_promos/produto2_slide_secundario_promos.png');
 }
 
-.relogio2_bazar:hover {
+#slide_secundario_promos_produto2:hover {
   background-image: url('../IMG/bazar/parte_dos_relogios/relogio2_hover_refeito.png');
 }
 
 /*slide3*/
-.relogio3_bazar {
+#slide_secundario_promos_produto3 {
   position: relative;
   top: 34.5%;
   width: 376px;
@@ -53,7 +53,7 @@
   background-image: url('../IMG/primeiro_slide_promos/produto3_slide_secundario_promos.png');
 }
 
-.relogio3_bazar:hover {
+#slide_secundario_promos_produto3:hover {
   background-image: url('../IMG/bazar/parte_dos_relogios/relogio3_hover_refeito.png');
 }
 
@@ -187,10 +187,41 @@
     display: none;
   }
   .btn-next {
-    top: 804%;
-    right: 16%;
+    top: -375px;
+    right: 0.1%;
   }
   
+  /* parte 2 do slide secundario */
+  #slide_secundario_promos2{
+    position: relative;
+    display: flex;
+    column-gap: 8px;
+  }
+
+  #slide2_secundario_promos_produto1{
+    position: relative;
+    top: 34.5%;
+    width: 376px;
+    height: 482px;
+    background-image: url('../IMG/primeiro_slide_promos/produto1_slide2_secundario_promos.png');
+    background-position: 20%;
+}
+
+#slide2_secundario_promos_produto2 {
+  position: relative;
+  top: 34.5%;
+  width: 376px;
+  height: 482px;
+  background-image: url('../IMG/primeiro_slide_promos/produto2_slide2_secundario_promos.png');
+}
+
+#slide2_secundario_promos_produto3 {
+  position: relative;
+  top: 34.5%;
+  width: 376px;
+  height: 482px;
+  background-image: url('../IMG/primeiro_slide_promos/produto3_slide2_secundario_promos.png');
+}
 
   /*slide principal*/
   .slide_principal_promos_article {
@@ -208,6 +239,7 @@
     left: 0;
     overflow: hidden; /* <===  */
 
+
   }
 
   .slide_principal_promos{
@@ -215,6 +247,8 @@
     height: 525px;
     position: absolute;
     transition: all 0.5s;
+    line-height: 32px;
+
   }
 
 
@@ -249,16 +283,26 @@
     height: 616px;
     background-image: url('../IMG/primeiro_slide_promos/produto_principal_promos.png');
     background-position: -15px;
+    position: relative;
   }
+
+  .Produto_principal_promos:hover {
+    background-image: url('../IMG/primeiro_slide_promos/produto_principal_promos_hover.png');
+  }
+
 
   /*slide principal 2*/
   .Produto_principal_promos2{
     width: 450px;
     height: 616px;
-    background-image: url('../IMG/primeiro_slide_promos/produto_principal_promos.png');
-    background-position: -15px;
+    background-image: url('../IMG/primeiro_slide_promos/produto2_principal_promos.png');
+    background-position: 15px;
     position: relative;
     
+  }
+
+  .Produto_principal_promos2:hover {
+    background-image: url('../IMG/primeiro_slide_promos/prduto2_principal_promos_hover.png');
   }
 
   .slider_principal_promos2 {
