@@ -1,0 +1,12 @@
+<div class="slider_principal_promos">
+             <div class="slide_principal_promos">
+                 <div class="slide_principal_grupo_promos">
+                     <div>
+                         <div class="Produto_principal_promos2"></div>
+                         <figcaption id="figcaption_do_slide_Principal_promos">
+                            <p id="paragrafo_do_slide_Principal_promos">Hourgless <br> Double- <br>Brasted Blazer </p>
+                            <p id="paragrafo_do_slide_Principal_promos_preço">R$ 150,00</p>
+                         </figcaption>
+                     </div>
+                 </div>
+             </div>
