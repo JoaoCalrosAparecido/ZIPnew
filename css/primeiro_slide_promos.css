@@ -89,7 +89,6 @@
   position: relative;
   top: -22px;
   left: -315%;
-  z-index: 2;
 }
 
 /* parte escrita */
@@ -278,7 +277,7 @@
     opacity: 60%;
   }
 
-  .Produto_principal_promos{
+  #Produto_principal_promos{
     width: 450px;
     height: 616px;
     background-image: url('../IMG/primeiro_slide_promos/produto_principal_promos.png');
@@ -286,10 +285,13 @@
     position: relative;
   }
 
-  .Produto_principal_promos:hover {
+  #Produto_principal_promos:hover {
     background-image: url('../IMG/primeiro_slide_promos/produto_principal_promos_hover.png');
   }
 
+  #Produto_principal_promos:hover {
+    background-image: url('../IMG/primeiro_slide_promos/produto_principal_promos_hover.png');
+  }
 
   /*slide principal 2*/
   .Produto_principal_promos2{
