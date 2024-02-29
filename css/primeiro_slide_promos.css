@@ -28,7 +28,7 @@
 }
 
 #slide_secundario_promos_produto1:hover {
-  background-image: url('../IMG/bazar/parte_dos_relogios/relogio1_hover_refeito.png');
+  background-image: url('../IMG/primeiro_slide_promos/produto1_slide_secundario_promos_hover.png');
 }
 
 /*slide2*/
@@ -41,7 +41,7 @@
 }
 
 #slide_secundario_promos_produto2:hover {
-  background-image: url('../IMG/bazar/parte_dos_relogios/relogio2_hover_refeito.png');
+  background-image: url('../IMG/primeiro_slide_promos/produto2_slide_secundario_promos_hover.png');
 }
 
 /*slide3*/
@@ -54,7 +54,7 @@
 }
 
 #slide_secundario_promos_produto3:hover {
-  background-image: url('../IMG/bazar/parte_dos_relogios/relogio3_hover_refeito.png');
+  background-image: url('../IMG/primeiro_slide_promos/produto3_slide_secundario_promos_hover.png');
 }
 
 
@@ -206,6 +206,10 @@
     background-position: 20%;
 }
 
+#slide2_secundario_promos_produto1:hover {
+  background-image: url('../IMG/primeiro_slide_promos/produto1_slide2_secundario_promos_hover.png');
+}
+
 #slide2_secundario_promos_produto2 {
   position: relative;
   top: 34.5%;
@@ -214,12 +218,20 @@
   background-image: url('../IMG/primeiro_slide_promos/produto2_slide2_secundario_promos.png');
 }
 
+#slide2_secundario_promos_produto2:hover {
+  background-image: url('../IMG/primeiro_slide_promos/produto2_slide_2_secundario_promos_hover.png');
+}
+
 #slide2_secundario_promos_produto3 {
   position: relative;
   top: 34.5%;
   width: 376px;
   height: 482px;
   background-image: url('../IMG/primeiro_slide_promos/produto3_slide2_secundario_promos.png');
+}
+
+#slide2_secundario_promos_produto3:hover {
+  background-image: url('../IMG/primeiro_slide_promos/produto3_slide2_secundario_promos_hover.png');
 }
 
   /*slide principal*/
