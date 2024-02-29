@@ -87,24 +87,25 @@
 /* parte escrita */
 .parte_escrita_relogio {
     position: relative;
-    top: 200px;
+    top: 38%;
     left: 30px;
 }
 
 .relogios_paragrafo {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
     position: relative;
-    top: 5px;
+    padding-bottom: 2%;
+
 }
 
 .relogios_paragrafo_preco {
   font-family: 'Poppins', sans-serif;
   position: relative;
-  left: 0.5px;
-  top: 10px;
-  font-size: 14px;
+  font-size: 19px;
+  left: -1%;
+  opacity: 60%;
 }
 
 /* seta */
@@ -164,7 +165,7 @@
   .btn img {
     width: 120px;
     position: relative;
-    right: 234%;
+    right: 414%;
     top: -245%;
   
   }
@@ -192,7 +193,7 @@
   }
 
   .slider_principal_promos {
-    width: 454px;
+    width: 723px;
     height: 820px;
     position: absolute;
     left: 0;
@@ -213,16 +214,38 @@
     column-gap: 30px;
   }
 
+  #figcaption_do_slide_Principal_promos {
+    position: relative;
+    left: 106%;
+    top: -50%;
+  }
+
+  #paragrafo_do_slide_Principal_promos {
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    padding-bottom: 10px;
+
+
+  }
+
+  #paragrafo_do_slide_Principal_promos_preço {
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    opacity: 60%;
+  }
+
   .Produto_principal_promos{
-    width: 493px;
+    width: 450px;
     height: 616px;
     background-image: url('../IMG/primeiro_slide_promos/produto_principal_promos.png');
-    background-position: -90%;
+    background-position: -15px;
   }
 
   /*slide principal 2*/
   .Produto_principal_promos2{
-    width: 451px;
-    height: 609px;
-    background-color: rgb(199, 186, 212);
+    width: 450px;
+    height: 616px;
+    background-image: url('../IMG/primeiro_slide_promos/produto_principal_promos.png');
+    background-position: -15px
   }
