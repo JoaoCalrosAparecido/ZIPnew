@@ -52,7 +52,7 @@
 
 #figure_imagem_whatches {
     position: relative;
-    left: -32.5%;
+    left: -36.5%;
     top: 146%;
 }
 
@@ -85,7 +85,7 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 240px;
+    left: 50%;
     top: 490px;
     font-size: 6;
     font-weight: normal;
@@ -102,7 +102,7 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 13.6%;
+    left: 15.5%;
     top: 215%;
     font-size: 6;
     font-weight: normal;
@@ -171,7 +171,7 @@
     overflow: hidden;
     position: relative;
     top: 220px;
-    right: 20px;
+    left: -32%;
 }
 
 .slides {
@@ -261,7 +261,7 @@
 
 
 .imagem_do_watches_slide {
-    background-image: url('../IMG/new_in_for_her/definitivo/slide/bota_preta_prdouto1_watches.png');
+    background-image: url('../IMG/watches/definitivo/slide/bota_preta_prdouto1_watches.png');
     width: 439px;
     height: 549px;
     background-color: black;
@@ -269,18 +269,18 @@
  
 /*imagem hover*/
 .imagem_do_watches_slide:hover {
-    background-image: url('../IMG/new_in_for_her/definitivo/slide/bota_preta_produto1_watches_hover.png');
+    background-image: url('../IMG/watches/definitivo/slide/bota_preta_produto1_watches_hover.png');
 }
 
 .imagem_do_watches_slide2 {
-    background-image: url('../IMG/new_in_for_her/definitivo/slide/bolsa_preta_refeito.png');
+    background-image: url('../IMG/watches/definitivo/slide/bolsa_preta_refeito.png');
     width: 439px;
     height: 549px;
     background-color: black;
 }
 
 .imagem_do_watches_slide2:hover {
-    background-image: url('../IMG/new_in_for_her/definitivo/slide/bolsa_preta_hover_refeito.png');
+    background-image: url('../IMG/watches/definitivo/slide/bolsa_preta_hover_refeito.png');
 }
 
 /*parte escrita dos produtos*/
