@@ -5,13 +5,19 @@
     --cordapartesuperiorverde: #084b4b;
 }
 
+
+
 /*zara_bazar_para_ele*/
+#parte_como_todo_watches {
+    position: relative;
+}
+
 ._new_in_for_her {
     display: flex;
     column-gap: 215px;
     position: relative;
     height: 260px;
-    top: 3845px;
+    top: 245px;
 }
 
 
@@ -38,8 +44,21 @@
 .imagem_do_zara_bazar_para_ele {
     position: relative;
     left: -30px;
+    width: 803px;
+    height: 1029px;
 }
 
+/*parte escrita watches*/
+
+#figure_imagem_whatches {
+    position: relative;
+    left: -60%;
+}
+
+#imagem_watches{
+    width: 288px;
+    height: 288px;
+}
 
 
 
