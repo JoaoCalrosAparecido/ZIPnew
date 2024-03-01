@@ -10,11 +10,12 @@
 /*zara_bazar_para_ele*/
 #parte_como_todo_watches {
     position: relative;
+    top: -140px;
 }
 
 ._new_in_for_her {
     display: flex;
-    column-gap: 105px;
+    column-gap: 47px;
     position: relative;
     height: 260px;
     top: 245px;
@@ -43,7 +44,6 @@
 /*imagem_pricipal do new in for her*/
 .imagem_do_zara_bazar_para_ele {
     position: relative;
-    left: -30px;
     width: 803px;
     height: 1029px;
 }
@@ -52,8 +52,8 @@
 
 #figure_imagem_whatches {
     position: relative;
-    left: 25%;
-    top: -246%;
+    left: -32.5%;
+    top: 146%;
 }
 
 #imagem_watches{
@@ -70,10 +70,10 @@
 /*setas*/
 .setas_new_in_for_her {
     display: flex;
-    column-gap: 355px;
+    column-gap: 447px;
     position: relative;
-    top: 435px;
-    right: 655.5px;
+    top: 455px;
+    left: 58%;
 }
 
 
@@ -102,8 +102,8 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: px;
-    top: px;
+    left: 13.6%;
+    top: 215%;
     font-size: 6;
     font-weight: normal;
     width: 239px;
@@ -166,8 +166,8 @@
 
 .slider {
     margin: 0 auto;
-    width: 369px;
-    height: 600px;
+    width: 439px;
+    height: 690px;
     overflow: hidden;
     position: relative;
     top: 220px;
@@ -209,8 +209,8 @@
     cursor: pointer;
     transition: 1s;
     position: relative;
-    right: 210px;
-    top: -45px;
+    left: -23%;
+    top: 100px;
 }
 
 .manual-btn:not(:last-child) {
@@ -261,21 +261,21 @@
 
 
 .imagem_do_new_in_for_her_slide {
-    background-image: url('../IMG/new_in_for_her/definitivo/slide/blaze_preto_refeito.png');
-    width: 369px;
-    height: 451px;
+    background-image: url('../IMG/new_in_for_her/definitivo/slide/bota_preta_prdouto1_watches.png');
+    width: 439px;
+    height: 549px;
     background-color: black;
 }
  
 /*imagem hover*/
 .imagem_do_new_in_for_her_slide:hover {
-    background-image: url('../IMG/new_in_for_her/definitivo/slide/blaze_preto_hover_refeito.png');
+    background-image: url('../IMG/new_in_for_her/definitivo/slide/bota_preta_produto1_watches_hover.png');
 }
 
 .imagem_do_new_in_for_her_slide2 {
     background-image: url('../IMG/new_in_for_her/definitivo/slide/bolsa_preta_refeito.png');
-    width: 369px;
-    height: 451px;
+    width: 439px;
+    height: 549px;
     background-color: black;
 }
 
@@ -292,20 +292,30 @@
 
 .produto_paragrafo_new_in_for_her1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 25px;
+    font-size: 28px;
     font-weight: 600;
     position: relative;
-    left: 11px;
+    left: 14.5%;
     top: 5px;
+    padding-bottom: 10px;
+}
+
+.parte_do_preço_watches {
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    opacity: 60%;
+    position: relative;
+    left: 39%;
 }
 
 .produto_paragrafo_new_in_for_her2 {
     font-family: 'Poppins', sans-serif;
-    font-size: 25px;
+    font-size: 28px;
     font-weight: 600;
     position: relative;
-    left: 21px;
+    left: 10.5%;
     top: 5px;
+    padding-bottom: 10px;
 }
 
 /*preço*/
