@@ -13,7 +13,7 @@
     top: -140px;
 }
 
-._new_in_for_her {
+.section_watches {
     display: flex;
     column-gap: 47px;
     position: relative;
@@ -42,7 +42,7 @@
 }
 
 /*imagem_pricipal do new in for her*/
-.imagem_do_zara_bazar_para_ele {
+.imagem_do_watches {
     position: relative;
     width: 803px;
     height: 1029px;
@@ -68,7 +68,7 @@
 
 
 /*setas*/
-.setas_new_in_for_her {
+.setas_watches {
     display: flex;
     column-gap: 447px;
     position: relative;
@@ -260,7 +260,7 @@
 }
 
 
-.imagem_do_new_in_for_her_slide {
+.imagem_do_watches_slide {
     background-image: url('../IMG/new_in_for_her/definitivo/slide/bota_preta_prdouto1_watches.png');
     width: 439px;
     height: 549px;
@@ -268,18 +268,18 @@
 }
  
 /*imagem hover*/
-.imagem_do_new_in_for_her_slide:hover {
+.imagem_do_watches_slide:hover {
     background-image: url('../IMG/new_in_for_her/definitivo/slide/bota_preta_produto1_watches_hover.png');
 }
 
-.imagem_do_new_in_for_her_slide2 {
+.imagem_do_watches_slide2 {
     background-image: url('../IMG/new_in_for_her/definitivo/slide/bolsa_preta_refeito.png');
     width: 439px;
     height: 549px;
     background-color: black;
 }
 
-.imagem_do_new_in_for_her_slide2:hover {
+.imagem_do_watches_slide2:hover {
     background-image: url('../IMG/new_in_for_her/definitivo/slide/bolsa_preta_hover_refeito.png');
 }
 
@@ -290,7 +290,7 @@
     top: 10px;
 }
 
-.produto_paragrafo_new_in_for_her1 {
+.produto_paragrafo_watches1 {
     font-family: 'Poppins', sans-serif;
     font-size: 28px;
     font-weight: 600;
@@ -308,7 +308,7 @@
     left: 39%;
 }
 
-.produto_paragrafo_new_in_for_her2 {
+.produto_paragrafo_watches2 {
     font-family: 'Poppins', sans-serif;
     font-size: 28px;
     font-weight: 600;
