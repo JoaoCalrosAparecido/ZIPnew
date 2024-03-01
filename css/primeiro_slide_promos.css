@@ -297,13 +297,11 @@
     position: relative;
   }
 
-  #Produto_principal_promos:hover {
-    background-image: url('../IMG/primeiro_slide_promos/produto_principal_promos_hover.png');
+  #Produto_principal_promos:hover{
+    background-image: url('../IMG/primeiro_slide_promos/produto_principal_promos_hover_T2.png');
   }
 
-  #Produto_principal_promos:hover {
-    background-image: url('../IMG/primeiro_slide_promos/produto_principal_promos_hover.png');
-  }
+
 
   /*slide principal 2*/
   .Produto_principal_promos2{
