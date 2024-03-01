@@ -72,7 +72,7 @@
     display: flex;
     column-gap: 447px;
     position: relative;
-    top: 455px;
+    top: 325px;
     left: 58%;
 }
 
@@ -121,14 +121,14 @@
     top: px;
     font-size: 6;
     font-weight: normal;
-    width: 233px;
-    height: 39px;
+    width: 239px;
+    height: 36px;
     background-color: var(--corpartesuperior);
     color: white;
 }
 
 #botao_do_watches > p {
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
 }
