@@ -14,7 +14,7 @@
 
 ._new_in_for_her {
     display: flex;
-    column-gap: 215px;
+    column-gap: 105px;
     position: relative;
     height: 260px;
     top: 245px;
@@ -52,7 +52,8 @@
 
 #figure_imagem_whatches {
     position: relative;
-    left: -60%;
+    left: 25%;
+    top: -246%;
 }
 
 #imagem_watches{
@@ -95,10 +96,46 @@
 }
 
 /*parte escrita do botão*/
-.paragrafo_zara_bazar {
-    font-size: 11px;
-    font-weight: 500;
+
+#botao_do_watches {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: px;
+    top: px;
+    font-size: 6;
+    font-weight: normal;
+    width: 239px;
+    height: 36px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+#botao_do_watches:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: px;
+    top: px;
+    font-size: 6;
+    font-weight: normal;
+    width: 233px;
+    height: 39px;
+    background-color: var(--corpartesuperior);
+    color: white;
+}
+
+#botao_do_watches > p {
+    font-size: 15px;
+    font-weight: bold;
     font-family: 'Poppins', sans-serif;
+}
+
+
+.paragrafo_zara_bazar {
+
 }
 
 .compre_agora_zara_bazar:hover {
@@ -106,8 +143,8 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 240px;
-    top: 490px;
+    left: px;
+    top: px;
     font-size: 6;
     font-weight: normal;
     width: 233px;
