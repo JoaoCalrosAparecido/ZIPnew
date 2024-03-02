@@ -15,7 +15,7 @@
 
 .section_watches {
     display: flex;
-    column-gap: 47px;
+    column-gap: 107px;
     position: relative;
     height: 260px;
     top: 245px;
@@ -52,7 +52,7 @@
 
 #figure_imagem_whatches {
     position: relative;
-    left: -36.5%;
+    left: -35.5%;
     top: 146%;
 }
 
@@ -79,21 +79,7 @@
 
 
 
-/*botão*/
-.compre_agora_zara_bazar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 50%;
-    top: 490px;
-    font-size: 6;
-    font-weight: normal;
-    width: 233px;
-    height: 39px;
-    background-color: white;
-    color: black;
-}
+
 
 /*parte escrita do botão*/
 
@@ -102,7 +88,7 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 15.5%;
+    left: 13.8%;
     top: 215%;
     font-size: 6;
     font-weight: normal;

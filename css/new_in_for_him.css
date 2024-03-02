@@ -8,26 +8,14 @@
 /* area do new in for her*/
 .new_in_for_him {
     position: absolute;
-    top: 7475px;
+    top: 4375px;
+    left: 8.76%;
     display: flex;
     flex-direction: row-reverse;
-    column-gap: 153px;
+    column-gap: 373px;
     height: 1080px;
 }
 
-/* parte escrita new in for her */
-.escrita_em_new_in_for_him{
-    position: relative;
-    top: -648px;
-    left: 895px;
-    width: 409px;
-}
-
-/*imagem do new in for her*/
-.imagem_do_new_in_for_her {
-    position: relative;
-    right: -57px;
-}
 
 
 
@@ -38,61 +26,24 @@
 
 
 
-/*botão*/
-.compre_agora_new_in {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    right: 217px;
-    top: 504px;
-    font-size: 6;
-    font-weight: normal;
-    width: 233px;
-    height: 39px;
-    background-color: white;
-    color: black;
-}
-
-/*parte escrita do botão*/
-.paragrafo_new_in {
-    font-size: 11px;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
-}
-
-.compre_agora_new_in:hover {  
-    background-color: rgb(0, 0, 0);
-    color: white;
-}
 
 
 
-/* setas */
-.setas_new_in_for_him {
-    display: flex;
-    column-gap: 360px;
-    position: relative;
-    top: -420px;
-    left: 69.9px;
 
 
-}
 
-.seta {
-    width: 60px;
-    height: 60px;
-}
+
+
 
 /*slides*/
 .slider2 {
     margin: 0 auto;
-    width: 469px;
-    height: 900px;
+    width: 439px;
+    height: 690px;
     overflow: hidden;
     position: relative;
-    top: 220px;
-    left: 70px;
+    top: 200px;
+    left: 9.9%;
 }
 
 .slides2 {
@@ -131,8 +82,8 @@
     cursor: pointer;
     transition: 1s;
     position: relative;
-    right: 175px;
-    top: -99.5px;
+    left: -200px;
+    top: 90.5px;
 }
 
 .manual-btn2:not(:last-child) {
@@ -180,7 +131,7 @@
 .imagem_do_new_in_for_him_slide {
     width: 369px;
     height: 451px;
-    background-image: url('../IMG/new_in_for_him/new_in_for_him/relogio_preto_refeito.png');
+    background-image: url('../IMG/watches/definitivo/slide/bota_preta_prdouto1_watches.png');
 }
 
 .imagem_do_new_in_for_him_slide:hover {
@@ -216,4 +167,134 @@
     justify-content: center;
     position: relative;
     top: -5px;
+}
+
+
+/*partes novas do larezzo vindas do watches*/
+
+/*o slide first é compartilhado com o watches*/
+
+.imagem_do_larezzo_slide {
+    background-image: url('../IMG/new_in_for_him/new_in_for_him/slide/bota_produto1_larezzo.png');
+    width: 439px;
+    height: 549px;
+    background-color: black;
+}
+
+.imagem_do_larezzo_slide:hover {
+    background-image: url('../IMG/new_in_for_him/new_in_for_him/slide/bota_produto1_larezzo_hover.png');
+}
+
+.imagem_do_larezzo_slide2 {
+    background-image: url('../IMG/new_in_for_him/new_in_for_him/slide/blusa_produto2_larezzo.png');
+    width: 439px;
+    height: 549px;
+    background-color: black;
+}
+
+.imagem_do_larezzo_slide2:hover {
+    background-image: url('../IMG/new_in_for_him/new_in_for_him/slide/blusa_produto2_larezzo_hover.png');
+}
+
+/*parte escrita do larezzo*/
+
+.paragrafo_figcaption_larezzo {
+    position: relative;
+    top: 10px;
+}
+
+.produto_paragrafo_larezzo1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    position: relative;
+    left: 14%;
+    top: 5px;
+    padding-bottom: 10px;
+}
+
+.produto_paragrafo_larezzo2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    position: relative;
+    left: 10.5%;
+    top: 5px;
+    padding-bottom: 10px;
+}
+
+.parte_do_preço_larezzo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    opacity: 60%;
+    position: relative;
+    left: 35%;
+}
+
+/*imagens principais*/
+/*imagem do new in for her*/
+
+.imagem_do_larezzo {
+    position: relative;
+    width: 803px;
+    height: 1029px;
+}
+
+
+
+.imagem_do_new_in_for_her {
+    position: relative;
+    right: 7px;
+}
+
+
+/* parte escrita new in for her */
+.escrita_em_new_in_for_him{
+    position: relative;
+    top: -271px;
+    left: 227%;
+}
+
+/*botão*/
+.compre_agora_new_in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 70.5%;
+    top: 543px;
+    font-size: 6;
+    font-weight: normal;
+    width: 239px;
+    height: 36px;
+    background-color: white;
+    color: black;
+}
+
+/*parte escrita do botão*/
+.paragrafo_new_in {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.compre_agora_new_in:hover {  
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+/* setas */
+.setas_new_in_for_him {
+    display: flex;
+    column-gap: 435px;
+    position: relative;
+    top: -230px;
+    left: 10%;
+
+
+}
+
+.seta {
+    width: 60px;
+    height: 60px;
 }
