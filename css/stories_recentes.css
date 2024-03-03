@@ -15,7 +15,6 @@
 
 /* parte escrita stories recentes */
 .escrita_stories_recentes {
-    width: 420px;
     position: relative;
     left: 95px;
     top: 60px;
@@ -40,14 +39,14 @@
 /* pontos em si */
 .pontos_do_slide_pontos {
     display: flex;
-    column-gap: 10px;
+    column-gap: 13px;
     position: relative;
     top: 7px;
 }
 
 .pontos_do_slide_pontos img {
-    width: 14px;
-    height: 12px;
+    width: 16px;
+    height: 16px;
 }
 
 /* setas */
