@@ -118,8 +118,8 @@
 
 /* imagem do icone da conta */
 
-#imagem_do_icone_da_conta {
+#imagem_do_icone_da_sacola {
     position: relative;
-    top: 1px;
-    
+    width: 19px;
+    height: 21px;
 }

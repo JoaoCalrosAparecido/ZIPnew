@@ -7,22 +7,23 @@
 
 .storeis_recentes {
     position: relative;
-    top: 2707px;
+    top: 1627px;
     width: 100%;
-    height: 835px;
+    height: 1140px;
     background-color: var(--cor0);
 }
 
 /* parte escrita stories recentes */
 .escrita_stories_recentes {
     position: relative;
-    left: 95px;
-    top: 60px;
+    left: 7%;
+    top: 90px;
+    width: 520px;
 }
 
 /* paragrafos do pontos do slide */
 .sotories_recentes_paragrafo {
-    font-family:'Lucida Sans Unicode', 'sans-serif';
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 45px;
 }
@@ -32,8 +33,8 @@
     display: flex;
     column-gap: 10px;
     position: relative;
-    left: 136px;
-    top: -145px;
+    left: 10.5%;
+    top: -155px;
 }
 
 /* pontos em si */
@@ -41,7 +42,7 @@
     display: flex;
     column-gap: 13px;
     position: relative;
-    top: 7px;
+    top: 9px;
 }
 
 .pontos_do_slide_pontos img {
@@ -51,67 +52,64 @@
 
 /* setas */
 .pontos_do_slide_seta_esquerda {
-    width: 19px;
-    height: 27px;
+    position: relative;
+    left: -3px;
 }
 
 .pontos_do_slide_seta_direita {
-    width: 19px;
-    height: 27px;
+    position: relative;
+    left: 9px;
     transform: rotate(180deg);
 }
 
 /* parte dos slides */
 .slides_stories_recentes {
     position: relative;
-    top: -400px;
-    left: 620px;
+    top: -480px;
+    left: 45.8%;
     display: flex;
-    column-gap: 40px;
+    column-gap: 30px;
 }
 
 /* link dos slides */
 .link_do_stories_recentes {
     color: black;
-    font-size: 11px;
+    font-size: 14px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
     position: relative;
-    top: 11px;
+    top: 24px;
     text-decoration: underline;
 }
 
 .link_stories_recentes2 {
     position: relative;
-    top: 14.7px;
+    top: 34px;
 }
 
 .link_stories_recentes3 {
     position: relative;
-    top: px;
+    top: 32px;
 }
 
 /* textos das imagens */
 .texto_da_imgagem_stories_recentes {
     position: relative;
     font-size: 16px;
-    top: 7px;
+    top: 11px;
 }
 
 
 .texto_da_imgagem_stories_recentes1 {
-    width: 250px;
     position: relative;
     right: 5px;
 }
 
 .texto_da_imgagem_stories_recentes2 {
-    width: 170px;
     position: relative;
 }
 
 .texto_da_imgagem_stories_recentes3 {
-    width: 193px;
     position: relative;
 }
 
@@ -120,7 +118,7 @@
 /* linhas */
 .linha_do_entre_no_mundo_zip {
     position: relative;
-    top: -350PX;
+    top: -400PX;
 }
 
 /* escrita entre no mundo zip */
@@ -133,23 +131,24 @@
 
 .escrita_entre_nomundo_zip {
     margin: auto;
-    width: 310px;
+
 }
 
-.div_paragrafo_stories_recentes {
+.article_paragrafo_stories_recentes {
     display: flex;
     position: relative;
-    top: -240px;
+    top: -220px;
 }
 
 .paragrafo_stories_recentes {
     font-family: 'Poppins', sans-serif;
     margin: auto;
     font-weight: 500;
+    font-size: 19px;
 }
 
 /* Digite o seu e-mail */
-.div_digite_o_seu_email {
+.article_digite_o_seu_email {
     display: flex;
     position: relative;
     top: -190px;
@@ -157,23 +156,24 @@
 
 .digite_o_seu_email_stories_recentes {
     margin: auto;
-    width: 290px;
-    height: 40px;
+    width: 368px;
+    height: 51px;
     background-color: white;
-    border: 2px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.534);
     display: flex;
     align-items: center;
 }
 
 .paragrafo_digite_o_seu_email {
     font-family: 'Poppins', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     position: relative;
     left: 10px;
+    opacity: 60%;
 }
 
 .setinha_do_digite_o_seu_email{
     transform: rotate(180deg);
     position: relative;
-    left: 130px;
+    left: 200px;
 }
