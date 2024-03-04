@@ -23,7 +23,7 @@
     
 }
 
-#div_menu_principal{
+#section_menu_principal{
     width: 100%;
     position: relative;
     display: flex;
@@ -35,7 +35,7 @@
 
 }
 
-#div_menu_principal > a {
+#section_menu_principal > a {
     font-family: 'Poppins', sans-serif;
     position: relative;
     text-decoration: none;
@@ -44,7 +44,7 @@
     font-weight: 500;
 }
 
-#div_menu_principal > a:hover{
+#section_menu_principal > a:hover{
     text-decoration: underline;
     color: rgb(31, 28, 28);
 }
