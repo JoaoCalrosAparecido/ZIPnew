@@ -41,7 +41,7 @@
     width: 310px;
 }
 
-.div_paragrafo_stories_recentes {
+.article_paragrafo_stories_recentes {
     display: flex;
     position: relative;
     top: -240px;
@@ -55,7 +55,7 @@
 }
 
 /* Digite o seu e-mail */
-.div_digite_o_seu_email {
+.article_digite_o_seu_email {
     display: flex;
     position: relative;
     top: -190px;
