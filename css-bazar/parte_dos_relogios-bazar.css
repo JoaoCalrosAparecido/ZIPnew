@@ -15,9 +15,9 @@
 .relogio1_bazar{
     position: relative;
     top: 200px;
-    width: 425px;
-    height: 532px;
-    background-image: url('../IMG/bazar/parte_dos_relogios/relogio1_now_refeito.png');
+    width: 506px;
+    height: 833px;
+    background-image: url('../IMG/bazar/parte_dos_relogios/2024/relogio1_refeito.png')
 }
 
 .relogio1_bazar:hover {
@@ -80,12 +80,12 @@
 /* parte escrita */
 .parte_escrita_relogio {
     position: relative;
-    top: 200px;
-    left: 30px;
+    top:240px;
+    left: 130px;
 }
 
 .relogios_paragrafo {
-    font-size: 15px;
+    font-size: 19px;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
     position: relative;
