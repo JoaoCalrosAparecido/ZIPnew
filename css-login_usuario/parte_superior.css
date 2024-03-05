@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root {
     --corpartesuperior: #292727;
     --cordapartesuperiorverde: #084b4b;
@@ -7,14 +9,19 @@
 /* parte superior do desconto na primeira compra */
 
 
+#section_parte_superior {
+    width: 100%;
+
+}
+
 
 #parte_superior{
     z-index: 1;
     position: fixed;
     top: 0;
-    background-color: var(--corpartesuperior);
-    height: 31px;
-    width: 1522px ;
+    background-color: black;
+    height: 37px;
+    width: 100% ;
     color: white;
     display: flex;
     justify-content: center;
@@ -22,8 +29,8 @@
 }
 
 #parte_superior > p{
-    font-size: 17PX;
-    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    font-size: 97%;
+    font-family: 'Poppins', sans-serif;
     position: relative;
     
     
@@ -50,13 +57,13 @@
 /* parte das setas */
 .setas_parte_superior {
     position: fixed;
-    left: 455px;
-    top: 9px;
+    left: 31.5%;
+    top: 1.2%;
     z-index: 10;
     display: flex;
-    column-gap: 590px;
-    width: 13px;
-    height: 13px;
+    column-gap: 177.5%;
+    width: 20%;
+    height: 2%;
 
 }
 

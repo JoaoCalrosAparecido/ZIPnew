@@ -1,35 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 /* area da ssection */
 
 
 .rodape {
-    height: 500px;
+    height: 838px;
     background-color: #212121;
     position: relative;
-    top: 1600px;
+    top: 1602px;
 }
 
 /* h1 */
 .rodape_h1 {
     color: white;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
-    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* paragrafos */
 .rodape_paragrafo {
     color: white;
-    font-size: 16px;
-    font-weight: normal;
+    font-size: 18px;
+    font-weight: 500;
     list-style-type: none;
-    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* pirmeira seção */
 .institucional {
     position: relative;
-    left: 75px;
-    top: 75px;
+    left: 4%;
+    top: 89px;
 }
 
 .lista_do_rodape_parte_1 {
@@ -43,65 +47,65 @@
 /* parte 1 */ 
 .segunda_secao_parte_1_h1 {
     position: relative;
-    top: -224px;
-    left: 425px;
-    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    top: -235px;
+    left: 26.5%;
+    font-family: 'Poppins', sans-serif;
 } 
 
 .segunda_secao_parte_1_ul {
     position: relative;
-    top: -224px;
-    left: 425px;
+    top: -235px;
+    left: 26.5%;
     list-style-type: none;
-    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* parte 2 */
 .segunda_secao_parte_2_h1 {
     position: relative;
-    top: -204px;
-    left: 425px;
-    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    top: -208px;
+    left: 26.5%;
+    font-family: 'Poppins', sans-serif;
 } 
 
 .segunda_secao_parte_2_ul {
     position: relative;
-    top: -204px;
-    left: 425px;
+    top: -210px;
+    left: 26.5%;
     list-style-type: none;
-    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* parte 3 */
 .segunda_secao_parte_3_h1 {
     position: relative;
-    top: -184px;
-    left: 425px;
-    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    top: -189px;
+    left: 26.5%;
+    font-family: 'Poppins', sans-serif;
 } 
 
 .segunda_secao_parte_3_ul {
     position: relative;
     top: -184px;
-    left: 425px;
+    left: 26.5%;
     list-style-type: none;
-    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* parte 4 */
 .segunda_secao_parte_4_h1 {
     position: relative;
-    top: -164px;
-    left: 425px;
-    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    top: -154px;
+    left: 26.5%;
+    font-family: 'Poppins', sans-serif;
 } 
 
 .segunda_secao_parte_4_ul {
     position: relative;
-    top: -164px;
-    left: 425px;
+    top: -154px;
+    left: 26.5%;
     list-style-type: none;
-    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -109,28 +113,33 @@
 /* icones do instagram e etc */
 .icones_do_instagram_e_etc_do_rodape {
     position: relative;
-    top: -95px;
-    left: 1040px;
+    top: 180px;
+    left: 70%;
     z-index: 1;
+
+}
+
+.icones_do_instagram_e_etc_do_rodape > img {
+    width: 415px;
 }
 
 /* ©Copyright2023 */
 .copyright{
     background-color: #212121;
-    width: 1522;
-    height: 70px;
+    width: 100%;
+    height: 85px;
     position: relative;
-    top: -68px;
+    top: 218px;
 }
 
 .h1_do_copyright {
     font-family: Arial, sans-serif;
     color: white;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 22px;
+    font-weight: 800;
     position: relative;
     top: 25px;
-    left: 47px;
+    left: 2%;
 
 }
 
@@ -138,8 +147,8 @@
 
 .terceira_secao {
     position: absolute;
-    top: 75px;
-    left: 800px;
+    top: 89px;
+    left: 50.9%;
     z-index: 1;
 }
 
@@ -150,18 +159,23 @@
 
 .terceita_secao_bazar {
     position: relative;
-    top: 43px;
+    top: 56px;
+}
+
+.terceita_secao_bazar > ul {
+    position: relative;
+    top: 3px;
 }
 
 /* quarta seção */
 .quarta_secao {
     position: absolute;
-    top: 75px;
-    left: 1120px;
+    top: 89px;
+    left: 72.6%;
     z-index: 1;
 }
 
 .lista_quarta_secao {
     position: relative;
-    top: 20px;
+    top: 29px;
 }
