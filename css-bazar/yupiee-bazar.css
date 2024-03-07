@@ -18,6 +18,9 @@
 /*img*/
 .parte_escrita_instituto_sol_img {
     width: 329px;
+    position: relative;
+    left: 0.3%;
+    top: -11px;
 }
 
 /*paragrafo*/
@@ -25,7 +28,8 @@
 .paragrafo_do_instituto_sol_article {
     display: flex;
     position: relative;
-    top: 13px;
+    top: 48px;
+    left: -0.5%;
     
 }
 
