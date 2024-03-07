@@ -67,13 +67,23 @@
 
   /*slides*/
   /*slide 1*/
+
+  .sol_roupas {
+    width: 503px;
+  height: 633px;
+  background-image: url('../IMG/bazar/parte_dos_relogios/2024/relogio1_refeito.png');
+  position: relative;
+  top: -750px;
+  }
+
   .blusa_rosa {
     position: relative;
     top: 200px;
-    width: 425px;
-    height: 532px;
-    background-image: url('../IMG/bazar/yupiee_slide/blusa_rosa_refeito.png');
+    width: 506px;
+    height: 833px;
   }
+
+
 
   .blusa_rosa:hover {
     background-image: url("../IMG/bazar/yupiee_slide/blusa_rosa_yupiee_hover_refeito.png");
@@ -132,8 +142,8 @@
   /*pargarafos*/
   .parte_escrita__das_roupas_yupiee {
     position: relative;
-    top: 200px;
-    left: 30px;
+    top: -735px;
+    left: 6%;
   }
 
   .roupas_yupiee_paragrafo {

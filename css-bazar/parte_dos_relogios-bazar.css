@@ -3,6 +3,7 @@
 .section_relogio {
   position: relative;
   top: 10px;
+  left: 2.4%;
 }
 
 .relogios_article {
@@ -12,84 +13,138 @@
 
 /* parte dos relogios */
 /*slide1*/
+.relogioss1 {
+  width: 503px;
+  height: 633px;
+  background-image: url('../IMG/bazar/parte_dos_relogios/2024/relogio1_refeito.png');
+  position: relative;
+  top: -750px;
+  
+}
+
+.relogioss1:hover {
+  background-image: url('../IMG/bazar/parte_dos_relogios/2024/relogio1_hover.png');
+}
+
 .relogio1_bazar{
     position: relative;
     top: 200px;
     width: 506px;
     height: 833px;
-    background-image: url('../IMG/bazar/parte_dos_relogios/2024/relogio1_refeito.png')
+    
 }
 
 .relogio1_bazar:hover {
-  background-image: url('../IMG/bazar/parte_dos_relogios/relogio1_hover_refeito.png');
+  
 }
 
 /*slide2*/
 .relogio2_bazar {
     position: relative;
     top: 200px;
-    width: 425px;
-    height: 532px;
-    background-image: url('../IMG/bazar/parte_dos_relogios/relogio2_refeito.png');
+    width: 506px;
+    height: 833px;
+    
 }
 
-.relogio2_bazar:hover {
-  background-image: url('../IMG/bazar/parte_dos_relogios/relogio2_hover_refeito.png');
+.relogioss2 {
+  width: 503px;
+  height: 633px;
+  background-image: url('../IMG/bazar/parte_dos_relogios/2024/relogio2.png');
+  position: relative;
+  top: -750px;
+  
+}
+
+.relogioss2:hover {
+  background-image: url('../IMG/bazar/parte_dos_relogios/2024/relogio2_hover.png');
 }
 
 /*slide3*/
 .relogio3_bazar {
-    position: relative;
-    top: 200px;
-    width: 425px;
-    height: 532px;
-    background-image: url('../IMG/bazar/parte_dos_relogios/relogio3_refeito.png');
+  position: relative;
+  top: 200px;
+  width: 506px;
+  height: 833px;
 }
 
-.relogio3_bazar:hover {
-  background-image: url('../IMG/bazar/parte_dos_relogios/relogio3_hover_refeito.png');
+.relogioss3 {
+  width: 503px;
+  height: 633px;
+  background-image: url('../IMG/bazar/parte_dos_relogios/2024/relogio3.png');
+  position: relative;
+  top: -750px;
+  
 }
+
+.relogioss3:hover {
+  background-image: url('../IMG/bazar/parte_dos_relogios/2024/relogio3_hover.png');
+}
+
 
 
 /*slide4*/
 .relogio4_bazar {
-    position: relative;
-    top: 200px;
-    width: 425px;
-    height: 532px;
-    background-image: url('../IMG/bazar/parte_dos_relogios/relogio4_refeito.png');
+  position: relative;
+  top: 200px;
+  width: 506px;
+  height: 833px;
 }
 
-.relogio4_bazar:hover {
-  background-image: url('../IMG/bazar/parte_dos_relogios/relogio3_hover_refeito.png');
+.relogioss4 {
+  width: 503px;
+  height: 633px;
+  background-image: url('../IMG/bazar/parte_dos_relogios/2024/relogio4.png');
+  position: relative;
+  top: -750px;
+  
 }
+
+.relogioss4:hover {
+  background-image: url('../IMG/bazar/parte_dos_relogios/2024/relogio4_hover.png');
+}
+
 
 /*slide5*/
 .relogio5_bazar {
-    position: relative;
-    top: 200px;
-    width: 425px;
-    height: 532px;
-    background-image: url('../IMG/bazar/parte_dos_relogios/relogio5_refeito.png');
+  position: relative;
+  top: 200px;
+  width: 506px;
+  height: 833px;
 }
 
-.relogio5_bazar:hover {
-  background-image: url('../IMG/bazar/parte_dos_relogios/relogio3_hover_refeito.png');
+.relogioss5 {
+  width: 503px;
+  height: 633px;
+  background-image: url('../IMG/bazar/parte_dos_relogios/2024/relogios5.png');
+  position: relative;
+  top: -750px;
+  
 }
+
+.relogioss5:hover {
+  background-image: url('../IMG/bazar/parte_dos_relogios/2024/relogios5_hover.png');
+}
+
+
 
 /* parte escrita */
 .parte_escrita_relogio {
     position: relative;
-    top:240px;
-    left: 130px;
+    top:140px;
+    left: 6%;
+}
+
+.paragrafo_relogio1 {
+  position: relative;
+  top: -729px;
 }
 
 .relogios_paragrafo {
-    font-size: 19px;
+    font-size: 15px;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
     position: relative;
-    top: 5px;
 }
 
 .relogios_paragrafo_preco {
@@ -97,7 +152,7 @@
   position: relative;
   left: 0.5px;
   top: 10px;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 /* seta */
@@ -109,7 +164,7 @@
 }
 .relogios-grupo {
     display: flex;
-    column-gap: 8px;
+    column-gap: 1px;
 }
 
   
@@ -164,6 +219,6 @@
   }
   .btn-next {
     top: 45%;
-    right: 2%;
+    left: 92.5%;
   }
   
