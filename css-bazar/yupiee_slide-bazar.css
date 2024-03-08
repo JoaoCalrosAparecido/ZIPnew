@@ -48,17 +48,26 @@
     display: none;
   }
   .btn-next2 {
-    top: 84.5%;
-    left: 95%;
+    top: 430.5%;
+    left: 97.5%;
   }
   
   /*estetica*/
+
+  .parte_section_sol {
+    width: 1800px;
+    height: 1700px;
+    overflow: hidden;
+  }
 
   #section_instituto_sol_slide {
     position: relative;
   top: 10px;
   left: 2.4%;
-  width: 1885px;
+  width: 1800px;
+  height: 1700px;
+  overflow: hidden;
+
   }
 
   .roupas_article{
@@ -172,7 +181,6 @@
   .calça_preta_yupiee2{
     position: relative;
   top: 200px;
-  left: 200px;
   width: 506px;
   height: 833px;
   }
