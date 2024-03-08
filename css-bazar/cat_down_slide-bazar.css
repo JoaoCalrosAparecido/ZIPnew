@@ -48,25 +48,25 @@
     display: none;
   }
   .btn-next3 {
-    top: 30%;
-    left: 97%;
+    top: 753%;
+    left: 97.5%;
   }
   
   /*estetica*/
   /*section*/
 #parte_section_pequeno_pricipe_total {
-  width: 1846px;
+  width: 1806px;
   height: 1700px;
   overflow: hidden;
   position: relative;
-  top: -725px;
+  top: -125px;
 }
 
   .roupas_pequeno_principe_section{
     position: relative;
-  top: 180px;
+  top: -550px;
   left: 2.4%;
-  width: 1831px;
+  width: 1800px;
   height: 1700px;
   overflow: hidden;
   }
