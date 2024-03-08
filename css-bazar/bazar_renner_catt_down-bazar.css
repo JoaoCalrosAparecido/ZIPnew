@@ -8,13 +8,13 @@
 
 /*parte escrita*/
 /*article*/
-.parte_escrita_article {
+.parte_escrita_florenza_article {
     position: relative;
-    top: -230px;
+    top: -400px;
     left: 50px;
 }
 
 /*img*/
-.parte_escrita_img {
-    width: 330px;
+.parte_escrita_florenza_img {
+    width: 271px;
 }
