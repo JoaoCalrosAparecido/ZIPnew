@@ -1,7 +1,8 @@
 /*section*/
 .h_pequeno_principe_section {
     position: relative;
-    top: 1080px;
+    top: -245px;
+    left: 1%;
 
 }
 
@@ -10,15 +11,15 @@
 .parte_escrita_h_pequeno_principe_article {
     display: flex;
     justify-content: center;
-    transform: rotate(30deg);
+    transform: rotate(-45deg);
     position: relative;
-    top: 300px;
+    top: 198px;
 }
 
 /*img*/
 .parte_escrita_h_pequeno_principe_img {
     
-    width: 260px;
+    width: 312px;
 }
 
 /*parte do paragrafo*/
@@ -27,14 +28,16 @@
     display: flex;
     justify-content: center;
     position: relative;
-    top: 120px;
+    top: 118px;
+    left: 1.2%;
 
 }
 
 /*paragrafo*/
 .parte_do_paragrafo_cat_down_paragrafo {
-    width: 875px;
-    font-size: 15px;
+    width: 1091px;
+    font-size: 17px;
     text-align: center;
+    font-weight: 500;
     font-family: 'Poppins', sans-serif;
 }

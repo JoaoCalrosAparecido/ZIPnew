@@ -48,7 +48,7 @@
     display: none;
   }
   .btn-next2 {
-    top: 430.5%;
+    top: 485.5%;
     left: 97.5%;
   }
   
@@ -62,7 +62,7 @@
 
   #section_instituto_sol_slide {
     position: relative;
-  top: 10px;
+  top: 180px;
   left: 2.4%;
   width: 1800px;
   height: 1700px;
