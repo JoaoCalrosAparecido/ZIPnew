@@ -1,5 +1,5 @@
 /*section*/
-.cat_down_section {
+.h_pequeno_principe_section {
     position: relative;
     top: 1080px;
 
@@ -7,13 +7,17 @@
 
 /*parte escrita*/
 /*article*/
-.parte_escrita_cat_down_article {
+.parte_escrita_h_pequeno_principe_article {
     display: flex;
     justify-content: center;
+    transform: rotate(30deg);
+    position: relative;
+    top: 300px;
 }
 
 /*img*/
-.parte_escrita_cat_down_img {
+.parte_escrita_h_pequeno_principe_img {
+    
     width: 260px;
 }
 
@@ -23,7 +27,7 @@
     display: flex;
     justify-content: center;
     position: relative;
-    top: 12px;
+    top: 120px;
 
 }
 
