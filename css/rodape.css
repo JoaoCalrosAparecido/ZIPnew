@@ -6,7 +6,7 @@
 
 
 .rodape {
-    height: 838px;
+    height: 700px;
     background-color: #212121;
     position: relative;
     top: 1702px;
@@ -113,7 +113,7 @@
 /* icones do instagram e etc */
 .icones_do_instagram_e_etc_do_rodape {
     position: relative;
-    top: 180px;
+    top: 35px;
     left: 70%;
     z-index: 1;
 
@@ -129,7 +129,7 @@
     width: 100%;
     height: 85px;
     position: relative;
-    top: 218px;
+    top: 80px;
 }
 
 .h1_do_copyright {
