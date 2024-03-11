@@ -13,8 +13,9 @@
     <link rel="stylesheet" href="css-login_usuario/stories_recentes_loginus.css">
     <link rel="stylesheet" href="css-login_usuario/rodape_loginus.css">
 
-    <link rel="shortcut icon" href="IMG/fivecon/logo preta grande.ico" type="image/x-icon">
+    <script src="jsValidator/userv.js" defer></script>
 
+    <link rel="shortcut icon" href="IMG/fivecon/logo preta grande.ico" type="image/x-icon">
 </head>
 <body>
     <!-- parte superior do desconto na primeira compra -->
@@ -85,14 +86,15 @@
                         <img class="caminhas" src="IMG/login/caminhao.png" width="28px"> <a id="sou" href="login_fornecedor.html">Sou Lojista</a>
                         <h3 id="sign">SIGN-IN</h3>
                         <label id="Up">Entre com o email e a senha</label>
-                        <input type="text" name="email" placeholder="Email*">
+                        <input type="email" name="email" placeholder="Email*">
                         <input type="password" name="senha" placeholder="Senha*">
                             <article id="AftSend">
                                 <input type="checkbox" id="Box">
                                 <label id="Remember">Lembre-me  <img class="icones_do_cadastrese" src="IMG/login/info.png" width="15px"></label>
                                 <label id="LostKey">Esqueceu a senha?</label>
                             </article>
-                        <input type="submit" name="acao" value="SIGN-IN">
+                        <input type="submit" name="action" value="SIGN-IN">
+
                     </article>
                 </form>
             </article>

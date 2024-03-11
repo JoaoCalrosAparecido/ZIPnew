@@ -28,6 +28,7 @@
     color: black;
 }
 
+form input[type=email],
 form input[type=text],
 form input[type=password]{
     width: 85%;
@@ -38,6 +39,7 @@ form input[type=password]{
     font-family: 'Lucida Sans Unicode', Arial, sans-serif;
     font-size: 11px;
 }
+form input[type=email],
 form input[type=text] {
     margin-top: 35px;
     margin-bottom: 10px;
