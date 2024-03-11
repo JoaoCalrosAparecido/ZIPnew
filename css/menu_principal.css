@@ -11,16 +11,21 @@
 
 .menu_como_todo{
     height: 10px;
-    background-color: white;
+    
+    transition: 2s;
 }
 
 #menu_principal {
     position: fixed;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.384);
     width: 100%;
     height: 95px;
 
     
+}
+
+#menu_principal.rolagem {
+    background-color: rgb(255, 255, 255);
 }
 
 #section_menu_principal{
@@ -35,26 +40,117 @@
 
 }
 
-#section_menu_principal > a {
+/*link 1*/
+.links_do_menu1 {
     font-family: 'Poppins', sans-serif;
     position: relative;
     text-decoration: none;
     font-size: 15px;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: 500;
 }
 
-#section_menu_principal > a:hover{
-    text-decoration: underline;
-    color: rgb(31, 28, 28);
+.links_do_menu1.rolagem {
+    color: rgb(0, 0, 0);
+
 }
+
+/*link 2*/
+
+.links_do_menu2 {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.links_do_menu2.rolagem {
+    color: rgb(0, 0, 0);
+
+}
+
+/*link 3*/
+
+.links_do_menu3 {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.links_do_menu3.rolagem {
+    color: rgb(0, 0, 0);
+
+}
+
+/*link 4*/
+
+.links_do_menu4 {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.links_do_menu4.rolagem {
+    color: rgb(0, 0, 0);
+
+}
+
+/*link 5*/
+
+.links_do_menu5 {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.links_do_menu5.rolagem {
+    color: rgb(0, 0, 0);
+
+}
+
+/*link 6*/
+
+.links_do_menu6 {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.links_do_menu6.rolagem {
+    color: rgb(0, 0, 0);
+
+}
+
+
 
 /*logo imagem*/
 
 #logo_zip_menu {
     position: fixed;
-    top: 5.3%;
+    top: 5.4%;
     left: 2%;
+    background-image: url(../IMG/area_do_menu/logo_zip_menu_parte_branca_2024_refeito.png);
+    z-index: 300;
+    width: 90px;
+    height:75px;
+}
+
+#logo_zip_menu.rolagem {
+    background-image: url(../IMG/area_do_menu/logo_zip_parte_preta_2024_refeito.png);
 }
 
 #logo_zip_menu_imagem {
@@ -94,8 +190,12 @@
     top: 1.5px;
     height: 25px;
     width: 16px;
+    background-image: url('../IMG/area_do_menu/icone_pesquisa_branco.svg');
 }
 
+#imagem_da_barra_de_pesquisa.rolagem {
+    background-image: url('../IMG/area_do_menu/icone_pesquisa_preto.svg');
+}
 
 
 /* imagem do icone de favorito */
@@ -105,6 +205,11 @@
     top: 2.5px;
     height: 19px;
     width: 20px;
+    background-image: url('../IMG/area_do_menu/icone_favorito_branco.svg');
+}
+
+#imagem_do_icone_de_favorito.rolagem {
+    background-image: url('../IMG/area_do_menu/icone_favorito_preto.svg');
 }
 
 /* imagem do icone de pessoa */
@@ -114,6 +219,11 @@
     top: 0.5px;
     width: 17px;
     height: 21px;
+    background-image: url('../IMG/area_do_menu/icone_pessoa_branco.svg');
+}
+
+#imagem_do_icone_de_pessoa.rolagem {
+    background-image: url('../IMG/area_do_menu/icone_pessoa_preto.svg');
 }
 
 /* imagem do icone da conta */
@@ -122,4 +232,9 @@
     position: relative;
     width: 19px;
     height: 21px;
+    background-image: url('../IMG/area_do_menu/icone_sacola_branco.svg');
+}
+
+#imagem_do_icone_da_sacola.rolagem {
+    background-image: url('../IMG/area_do_menu/icone_sacola_preto.svg');
 }
