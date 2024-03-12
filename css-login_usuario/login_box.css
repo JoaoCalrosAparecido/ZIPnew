@@ -48,7 +48,7 @@ form input[type=password] {
     margin-top: 15px;
 }
 
-form input[type=submit]{
+#botao-form{
     width: 88%;
     height: 45px;
     cursor: pointer;
@@ -56,6 +56,7 @@ form input[type=submit]{
     color: white;
     border-color: rgb(36, 36, 36);
     margin-bottom: 53px;
+    margin-top: 35px;
     font-size: medium;
     font-weight: bold;
 }
@@ -75,7 +76,7 @@ form input[type=submit]{
     font-size: 13px;
     font-weight: 200;
     text-decoration: underline;
-    
+
 }
 
 #AftSend {

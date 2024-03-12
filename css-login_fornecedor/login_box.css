@@ -39,9 +39,10 @@ form input[type=text] {
 }
 form input[type=password] {
     margin-top: 15px;
+
 }
 
-form input[type=submit]{
+#botao-form{
     width: 88%;
     height: 45px;
     cursor: pointer;
