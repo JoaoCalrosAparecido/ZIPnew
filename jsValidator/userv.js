@@ -1,25 +1,27 @@
 const form = document.querySelector("#control")
-const emailInput =  document.querySelector("#email")
+const userInput =  document.querySelector("#email") || document.querySelector('#cpf')
 const passwordInput = document.querySelector("#senha")
+const formBtn = document.querySelector('#botao-form');
 
-form.addEventListener("submit", (event) => {
-    event.preventDefault();
-
+formBtn.addEventListener("click", () => {
     //Verifica se o email está vazio
-    if (emailInput.value === ""  || !isEmailValid(emailInput.value)) {
-        alert("Por favor, preencha o seu email");
+    if (!userInput.value) {
+        alert("Por favor, preencha o campo destacado");
+        userInput.focus();
         return;
     }
 
     //Verifica se a senha está preenchida
-    if(!validatePassword(passwordInput.value)) {
+    if(!validatePassword(passwordInput.value, 8)) {
         alert("A senha prescisa de ser no mínimo 8 dígitos.");
+        passwordInput.focus();
         return;
     }
 
-    //Se todos os campos estiverem corretamente preenchidos, envie-o
-    form.submit();
+    /*Se todos os campos estiverem corretamente preenchidos, envie-o
+    form.submit();*/
 })
+
 
     //Função que valida email
     function isEmailValid(email) {

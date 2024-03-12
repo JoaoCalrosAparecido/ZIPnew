@@ -61,7 +61,7 @@
     top: 3px;
 }
 
-  input[type=submit]{
+  input[type=button]{
     width: 96%;
     height: 45px;
     cursor: pointer;
