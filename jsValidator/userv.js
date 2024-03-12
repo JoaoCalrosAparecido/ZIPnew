@@ -1,4 +1,94 @@
-const form = document.querySelector("#control")
+const form   = document.getElementById('control');
+const campos = document.querySelectorAll('.required');
+const spans  = document.querySelectorAll('.span-required');
+const emailRegex = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
+
+    form.addEventListener('submit', (event) => {
+        event.preventDefault();
+        emailValidate();
+        mainPasswordValidate();
+    })
+
+
+
+function setError(login_do_usuario){
+    campos[login_do_usuario].style.border = '1px solid #e63636'
+}
+
+function removeError(login_do_usuario){
+    campos[login_do_usuario].style.border = ''
+}
+
+
+function emailValidate(){
+    if(!emailRegex.test(campos[0].value))
+    {
+        setError(0);
+    }
+    else{
+        removeError(0);
+    }
+}
+
+function mainPasswordValidate(){
+    if(campos[1].value.length < 8)
+    {
+        setError(1);
+    }
+    else
+    {
+        removeError(1);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*const form = document.querySelector("#control")
 const userInput =  document.querySelector("#email") || document.querySelector('#cpf')
 const passwordInput = document.querySelector("#senha")
 const formBtn = document.querySelector('#botao-form');
@@ -18,8 +108,8 @@ formBtn.addEventListener("click", () => {
         return;
     }
 
-    /*Se todos os campos estiverem corretamente preenchidos, envie-o
-    form.submit();*/
+    //Se todos os campos estiverem corretamente preenchidos, envie-o
+    //form.submit();
 })
 
 
@@ -46,3 +136,4 @@ formBtn.addEventListener("click", () => {
         }
             return false
     }
+    */

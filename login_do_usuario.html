@@ -81,22 +81,30 @@
          <!--login Lado esquerdo-->
              <section id="Login">
             <article>
+
+
                 <form id="control">
                     <article>
                         <img class="caminhas" src="IMG/login/caminhao.png" width="28px"> <a id="sou" href="login_fornecedor.html">Sou Lojista</a>
                         <h3 id="sign">SIGN-IN</h3>
+
                         <label id="Up">Entre com o email e a senha</label>
-                        <input type="email" name="email" id="email" placeholder="Email*" required>
-                        <input type="password" name="senha" id="senha" placeholder="Senha*">
+
+                        <input type="email" name="email" id="email" placeholder="Email*" class="inputs required" oninput="emailValidate()">
+                        <span class="span-required"></span>
+                        <input type="password" name="senha" id="senha" placeholder="Senha*" class="inputs required" oninput="mainPasswordValidate()">
+                        <span class="span-required"></span>
+
                             <article id="AftSend">
                                 <input type="checkbox" id="Box">
                                 <label id="Remember">Lembre-me  <img class="icones_do_cadastrese" src="IMG/login/info.png" width="15px"></label>
                                 <label id="LostKey">Esqueceu a senha?</label>
                             </article>
-                        <input type="button" id="botao-form" name="action" value="SIGN-IN">
-
+                        <input type="submit" href="index.html" id="botao-form" name="action" value="SIGN-IN">
                     </article>
                 </form>
+
+
             </article>
             <article>
                 <hr id="linha" >

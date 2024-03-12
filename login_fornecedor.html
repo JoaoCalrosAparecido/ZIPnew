@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="css-login_fornecedor/stories_recentes_loginfn.css">
     <link rel="stylesheet" href="css-login_fornecedor/rodape_loginfn.css">
 
+    <script src="./jsValidator/lojista.js" defer></script>
+
     <link rel="shortcut icon" href="IMG/fivecon/logo preta grande.ico" type="image/x-icon">
 
     <script src="./jsValidator/userv.js" defer></script>
@@ -86,16 +88,16 @@
                 <article>
                     <h3 id="sign">SIGN-IN</h3>
                 </article>
-                <article>
+                <article> 
                     <label id="Up">Entre com o CPF e a senha</label>
-                    <input type="text" name="cpf" id="cpf" placeholder="CPF*">
-                    <input type="password" name="senha" id="senha" placeholder="Senha*">
+                    <input type="text" name="cpf" id="cpf" placeholder="CPF*" class="inputs required" oninput="cpfValidate()">
+                    <input type="password" name="senha" id="senha" placeholder="Senha*" class="inputs required" oninput="mainPasswordValidate()">
                         <article id="AftSend">
                             <input type="checkbox" id="Box">
                             <label id="Remember">Lembre-me  <img class="icones_do_cadastrese" src="IMG/login/info.png" width="15px"></label>
                             <label id="LostKey">Esqueceu a senha?</label>
                         </article>
-                    <input type="button" id="botao-form" name="acao" value="SIGN-IN">
+                    <input type="submit" id="botao-form" name="acao" value="SIGN-IN">
                 </article>
             </form>
             <article>
