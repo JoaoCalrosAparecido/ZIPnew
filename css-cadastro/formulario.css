@@ -36,6 +36,20 @@ label {
     font-size: 16px;
     border-width: 1px;
 }
+
+#dia, #mes, #ano{
+    width: 15rem;
+    height: 40px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    border-width: 1px;
+}
+
+#dia, #mes{
+    margin-right: 33px;
+}
+
+
 #senha{
     width: 50rem;
     height: 40px;
@@ -51,7 +65,7 @@ label {
 }
 
 
-#Sobrenome{
+#cpf{
     width: 50rem;
     height: 40px;
     margin-bottom: 40px;
