@@ -2,33 +2,39 @@ const form   = document.getElementById('formulario');
 const campos = document.querySelectorAll('.required');
 const spans  = document.querySelectorAll('.span-required');
 const cpfRegex = /^([0-9]{3}\.?[0-9]{3}\.?[0-9]{3}\-?[0-9]{2}|[0-9]{2}\.?[0-9]{3}\.?[0-9]{3}\/?[0-9]{4}\-?[0-9]{2})$/;
-const emailRegex = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
-const cepRegex = /[0-9]{5}[\d]{3}/;
 const diaRegex = /^(0?[1-9]|[12][0-9]|3[01])$/;
 const mesRegex = /^[1-9]$|^[1][0-2]$/;
 const anoRegex = /^([1-2]+[9&0]+[0-9]{2})/
+const emailRegex = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
+const cepRegex = /[0-9]{5}[\d]{3}/;
+
 
     form.addEventListener('submit', (event) => {
         event.preventDefault();
         nameValidate();
         cpfValidate();
-        mainPasswordValidate();
-        comparePassword();
-        emailValidate();
-        cepValidate();
         diaValidate();
         mesValidate();
         anoValidate();
+        emailValidate();
+        mainPasswordValidate();
+        comparePassword();
+        cepValidate();
     })
 
 
 function setError(cadastro){
     campos[cadastro].style.border = '1px solid #e63636'
+    spans[cadastro].style.display = 'block';
 }
 
 function removeError(cadastro){
     campos[cadastro].style.border = ''
+    spans[cadastro].style.display = 'none';
 }
+
+
+
 
 function nameValidate(){
     if(campos[0].value.length < 3)
@@ -51,14 +57,6 @@ function cpfValidate(){
 
 
  //data
-
-
-
-
-
-
-
-
 
 function diaValidate(){
     if(!diaRegex.test(campos[2].value))
@@ -91,21 +89,6 @@ function anoValidate(){
         removeError(4);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 function emailValidate(){
     if(!emailRegex.test(campos[5].value))
@@ -149,4 +132,3 @@ function cepValidate(){
         removeError(8);
     }
 }
-

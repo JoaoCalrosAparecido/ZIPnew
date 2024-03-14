@@ -86,28 +86,41 @@
                         <article>
                                     <input type="text" name="nome" id="nome" maxlength="40" placeholder="    Nome Completo*" class="inputs required" oninput="nameValidate()">
                                 <br>
+                                <span class="span-required">Nome invalido!</span>
+                                <br>
                             <input type="text" name="cpf" id="cpf" maxlength="40" placeholder="    CPF*" class="inputs required" oninput="cpfValidate()">
+                            <br>
+                            <span class="span-required">O CPF está incorreto!</span>
                             <br>
                                 <!--<input type="date" name="nascimento" id="nascimento"  maxlength="40" class="inputs required" oninput="dateValidate()">
                                 <br>-->
 
                                     <section id="data">
                                         <input type="text" name="dia" id="dia" maxlength="2"  placeholder="    Dia*" class="inputs required" oninput="diaValidate()">
-                                        
+                                        <span class="span-required"></span>
                                         <input type="text" name="mes" id="mes" maxlength="2" placeholder="    Mês*" class="inputs required" oninput="mesValidate()">
-                                    
+                                        <span class="span-required"></span>
                                         <input type="text" name="ano" id="ano" maxlength="4" placeholder="    Ano*" class="inputs required" oninput="anoValidate()">
+                                        <span class="span-required"></span>
                                         <br>
 
                                     </section>
 
                             <input type="email" name="email" id="email" placeholder="    Email*" class="inputs required" oninput="emailValidate()">
                             <br>
+                            <span class="span-required">O email está incorreto!</span>
+                            <br>
                                 <input type="password" name="senha" id="senha" placeholder="    Senha*" class="inputs required" oninput="mainPasswordValidate()">
+                                <br>
+                                <span class="span-required">A senha prescisa de no minímo 8 digitos!</span>
                                 <br>
                             <input type="password" name="senha" id="senha"  placeholder="    Confirme a senha" class="inputs required" oninput="comparePassword()">
                             <br>
+                            <span class="span-required">As senhas não são compativeis!</span>
+                            <br>
                                 <input type="text" name="cep" id="cep" size="15" maxlength="9" placeholder="    CEP*" class="inputs required" oninput="cepValidate()">
+                                <br>
+                                <span class="span-required">O CEP está incorreto!</span>
                                 <br>
 
                             <input type="submit" value="CONECTE-SE" id="botao" >

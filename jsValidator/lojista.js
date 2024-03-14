@@ -11,13 +11,16 @@ const cpfRegex = /^([0-9]{3}\.?[0-9]{3}\.?[0-9]{3}\-?[0-9]{2}|[0-9]{2}\.?[0-9]{3
 
 
 
-function setError(login_do_fornecedor){
-    campos[login_do_fornecedor].style.border = '1px solid #e63636'
-}
-
-function removeError(login_do_fornecedor){
-    campos[login_do_fornecedor].style.border = ''
-}
+    function setError(login_forncedor){
+        campos[login_forncedor].style.border = '1px solid #e63636';
+        spans[login_forncedor].style.display = 'block';
+    }
+    
+    function removeError(login_forncedor){
+        campos[login_forncedor].style.border = ''
+        spans[login_forncedor].style.display = 'none';
+    }
+    
 
 
 function cpfValidate(){

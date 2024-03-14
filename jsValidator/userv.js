@@ -12,11 +12,13 @@ const emailRegex = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
 
 
 function setError(login_do_usuario){
-    campos[login_do_usuario].style.border = '1px solid #e63636'
+    campos[login_do_usuario].style.border = '1px solid #e63636';
+    spans[login_do_usuario].style.display = 'block';
 }
 
 function removeError(login_do_usuario){
     campos[login_do_usuario].style.border = ''
+    spans[login_do_usuario].style.display = 'none';
 }
 
 
