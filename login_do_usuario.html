@@ -91,16 +91,18 @@
                         <label id="Up">Entre com o email e a senha</label>
 
                         <input type="email" name="email" id="email" placeholder="Email*" class="inputs required" oninput="emailValidate()">
-                        <span class="span-required"></span>
+                        <br>
+                        <span class="span-required">O email está incorreto!</span>
                         <input type="password" name="senha" id="senha" placeholder="Senha*" class="inputs required" oninput="mainPasswordValidate()">
-                        <span class="span-required"></span>
+                        <br>
+                        <span class="span-required">A senha prescisa de no minímo 8 digitos!</span>
 
                             <article id="AftSend">
                                 <input type="checkbox" id="Box">
                                 <label id="Remember">Lembre-me  <img class="icones_do_cadastrese" src="IMG/login/info.png" width="15px"></label>
                                 <label id="LostKey">Esqueceu a senha?</label>
                             </article>
-                        <input type="submit" href="index.html" id="botao-form" name="action" value="SIGN-IN">
+                        <input type="submit" id="botao-form" name="action" value="SIGN-IN">
                     </article>
                 </form>
 

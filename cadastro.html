@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css-cadastro/formulario.css">
     <link rel="stylesheet" href="css-cadastro/rodape_cadastro.css">
 
+    <script src="./jsValidator/cadastro.js" defer></script>
+
     <link rel="shortcut icon" href="IMG/fivecon/logo preta grande.ico" type="image/x-icon">
 
 </head>
@@ -82,19 +84,43 @@
             <form id="formulario" action="" method="post">
                 <section id="forms">
                         <article>
-                                    <input type="text" name="nome" id="nome" maxlength="40" placeholder="    Nome*">
+                                    <input type="text" name="nome" id="nome" maxlength="40" placeholder="    Nome Completo*" class="inputs required" oninput="nameValidate()">
                                 <br>
-                            <input type="email" name="Sobrenome" id="Sobrenome" maxlength="40" placeholder="    Sobrenome*">
-                            <br>
-                                <input type="date" name="nascimento" id="nascimento"  maxlength="40">
+                                <span class="span-required">Nome invalido!</span>
                                 <br>
-                            <input type="email" name="email" id="email" maxlength="40" placeholder="    Email*">
+                            <input type="text" name="cpf" id="cpf" maxlength="40" placeholder="    CPF*" class="inputs required" oninput="cpfValidate()">
                             <br>
-                                <input type="password" name="senha" id="senha"  maxlength="40" placeholder="    Senha*">
+                            <span class="span-required">O CPF está incorreto!</span>
+                            <br>
+                                <!--<input type="date" name="nascimento" id="nascimento"  maxlength="40" class="inputs required" oninput="dateValidate()">
+                                <br>-->
+
+                                    <section id="data">
+                                        <input type="text" name="dia" id="dia" maxlength="2"  placeholder="    Dia*" class="inputs required" oninput="diaValidate()">
+                                        <span class="span-required"></span>
+                                        <input type="text" name="mes" id="mes" maxlength="2" placeholder="    Mês*" class="inputs required" oninput="mesValidate()">
+                                        <span class="span-required"></span>
+                                        <input type="text" name="ano" id="ano" maxlength="4" placeholder="    Ano*" class="inputs required" oninput="anoValidate()">
+                                        <span class="span-required"></span>
+                                        <br>
+
+                                    </section>
+
+                            <input type="email" name="email" id="email" placeholder="    Email*" class="inputs required" oninput="emailValidate()">
+                            <br>
+                            <span class="span-required">O email está incorreto!</span>
+                            <br>
+                                <input type="password" name="senha" id="senha" placeholder="    Senha*" class="inputs required" oninput="mainPasswordValidate()">
                                 <br>
-                            <input type="password" name="senha" id="senha" maxlength="40" placeholder="    Confirme a senha">
+                                <span class="span-required">A senha prescisa de no minímo 8 digitos!</span>
+                                <br>
+                            <input type="password" name="senha" id="senha"  placeholder="    Confirme a senha" class="inputs required" oninput="comparePassword()">
                             <br>
-                                <input type="text" name="cep" id="cep" size="15" maxlength="9" placeholder="    CEP*">
+                            <span class="span-required">As senhas não são compativeis!</span>
+                            <br>
+                                <input type="text" name="cep" id="cep" size="15" maxlength="9" placeholder="    CEP*" class="inputs required" oninput="cepValidate()">
+                                <br>
+                                <span class="span-required">O CEP está incorreto!</span>
                                 <br>
 
                             <input type="submit" value="CONECTE-SE" id="botao" >
