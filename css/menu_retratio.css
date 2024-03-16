@@ -5,7 +5,7 @@ background-color: rgb(82, 211, 211);
 position: absolute;
 top: 40px;
 left: -8.98%;
-display: none;
+display: nne;
 }
 
 .links_do_menu2:hover + #section_do_menu_retratio_2 {
