@@ -59,6 +59,7 @@
   .icones_do_cadastrese{
     position: relative;
     top: 3px;
+    padding-right: 3px;
 }
 
   #enviar{
