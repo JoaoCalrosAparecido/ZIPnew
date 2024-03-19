@@ -17,7 +17,7 @@
 
 #menu_principal {
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.384);
+    background-color: rgb(255, 255, 255);
     width: 100%;
     height: 95px;
 
@@ -46,14 +46,10 @@
     position: relative;
     text-decoration: none;
     font-size: 15px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-weight: 500;
 }
 
-.links_do_menu1.rolagem {
-    color: rgb(0, 0, 0);
-
-}
 
 /*link 2*/
 
@@ -62,14 +58,10 @@
     position: relative;
     text-decoration: none;
     font-size: 15px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-weight: 500;
 }
 
-.links_do_menu2.rolagem {
-    color: rgb(0, 0, 0);
-
-}
 
 /*link 3*/
 
@@ -78,14 +70,10 @@
     position: relative;
     text-decoration: none;
     font-size: 15px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-weight: 500;
 }
 
-.links_do_menu3.rolagem {
-    color: rgb(0, 0, 0);
-
-}
 
 /*link 4*/
 
@@ -94,14 +82,10 @@
     position: relative;
     text-decoration: none;
     font-size: 15px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-weight: 500;
 }
 
-.links_do_menu4.rolagem {
-    color: rgb(0, 0, 0);
-
-}
 
 /*link 5*/
 
@@ -110,14 +94,10 @@
     position: relative;
     text-decoration: none;
     font-size: 15px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-weight: 500;
 }
 
-.links_do_menu5.rolagem {
-    color: rgb(0, 0, 0);
-
-}
 
 /*link 6*/
 
@@ -126,14 +106,10 @@
     position: relative;
     text-decoration: none;
     font-size: 15px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-weight: 500;
 }
 
-.links_do_menu6.rolagem {
-    color: rgb(0, 0, 0);
-
-}
 
 
 
@@ -143,15 +119,12 @@
     position: fixed;
     top: 5.4%;
     left: 2%;
-    background-image: url(../IMG/area_do_menu/logo_zip_menu_parte_branca_2024_refeito.png);
-    z-index: 300;
+    background-image: url(../../IMG/area_do_menu/logo_zip_parte_preta_2024_refeito.png);
+    z-index: 3000000;
     width: 90px;
     height:72px;
 }
 
-#logo_zip_menu.rolagem {
-    background-image: url(../IMG/area_do_menu/logo_zip_parte_preta_2024_refeito.png);
-}
 
 #logo_zip_menu_imagem {
     width: 105%;
@@ -177,7 +150,7 @@
     display: flex ;
     column-gap: 20.7px;
     right: 2.3%;
-    top: 10%;
+    top: 10.5%;
     height: 2.3%;
     
 }
@@ -190,12 +163,10 @@
     top: 1.5px;
     height: 25px;
     width: 16px;
-    background-image: url('../IMG/area_do_menu/icone_pesquisa_branco.svg');
+    background-image: url('../../IMG/area_do_menu/icone_pesquisa_preto.svg');
 }
 
-#imagem_da_barra_de_pesquisa.rolagem {
-    background-image: url('../IMG/area_do_menu/icone_pesquisa_preto.svg');
-}
+
 
 
 /* imagem do icone de favorito */
@@ -205,11 +176,7 @@
     top: 2.5px;
     height: 19px;
     width: 20px;
-    background-image: url('../IMG/area_do_menu/icone_favorito_branco.svg');
-}
-
-#imagem_do_icone_de_favorito.rolagem {
-    background-image: url('../IMG/area_do_menu/icone_favorito_preto.svg');
+    background-image: url('../../IMG/area_do_menu/icone_favorito_preto.svg');
 }
 
 /* imagem do icone de pessoa */
@@ -219,12 +186,9 @@
     top: 0.5px;
     width: 17px;
     height: 21px;
-    background-image: url('../IMG/area_do_menu/icone_pessoa_branco.svg');
+    background-image: url('../../IMG/area_do_menu/icone_pessoa_preto.svg');
 }
 
-#imagem_do_icone_de_pessoa.rolagem {
-    background-image: url('../IMG/area_do_menu/icone_pessoa_preto.svg');
-}
 
 /* imagem do icone da conta */
 
@@ -232,9 +196,6 @@
     position: relative;
     width: 19px;
     height: 21px;
-    background-image: url('../IMG/area_do_menu/icone_sacola_branco.svg');
+    background-image: url('../../IMG//area_do_menu/icone_sacola_preto.svg');
 }
 
-#imagem_do_icone_da_sacola.rolagem {
-    background-image: url('../IMG/area_do_menu/icone_sacola_preto.svg');
-}
