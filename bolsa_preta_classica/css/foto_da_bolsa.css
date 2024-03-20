@@ -1,16 +1,41 @@
 #section_da_foto_da_bolsa {
     width: 1020px;
     height: auto; /* Mudei a altura para auto para permitir o espaçamento adequado */
-    background-color: rgb(36, 190, 36);
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-wrap: wrap;
     /* position: absolute; */ /* Comentei essa linha para que a altura automática funcione corretamente */
     row-gap: 3px; /* Altere este valor conforme necessário */
     column-gap: 3px;
+    position: relative;
+    left: 10.44%;
+    top: 130px;
 }
 
 .foto_da_bolsa {
     width: 506px;
     height: 633px;
     background-color: rgb(214, 138, 138);
+}
+
+/*imagem 1*/
+#promos_bolsa_preta_classica1 {
+    background-image: url('../../IMG/pordutos/promos/bolsa_preta_classica/bolsa_preta_classica1.png');
+}
+
+/*imagem 2*/
+#promos_bolsa_preta_classica2 {
+    background-image: url('../../IMG/pordutos/promos/bolsa_preta_classica/bolsa_preta_classica2.png');
+}
+/*imagem 3*/
+#promos_bolsa_preta_classica3 {
+    background-image: url('../../IMG/pordutos/promos/bolsa_preta_classica/bolsa_preta_classica3.png');
+}
+/*imagem 4*/
+#promos_bolsa_preta_classica4 {
+    background-image: url('../../IMG/pordutos/promos/bolsa_preta_classica/bolsa_preta_classica4.png');
+}
+/*imagem 5*/
+#promos_bolsa_preta_classica5 {
+    background-image: url('../../IMG/pordutos/promos/bolsa_preta_classica/bolsa_preta_classica5.png');
 }
