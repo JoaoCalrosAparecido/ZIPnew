@@ -3,14 +3,14 @@
 #section_adicionar_a_sacola {
     width: 481px;
     height: 1923px;
-    background-color: rgba(59, 94, 124, 0.363);
+    background-color: rgb(255, 255, 255);
     position: relative;
     left: 66%;
     top: -1800px;
 }
 
 #section_position_sticky_adicionar_a_sacola {
-    background-color: rgba(0, 0, 255, 0.151);
+    background-color: rgb(255, 255, 255);
     width: 481px;
     height: 630px;
     position: sticky;
@@ -55,6 +55,16 @@
     padding-left: 5px;
 }
 
+/*imagem favorito*/
+#imagem_de_favorito {
+    width: 27px;
+    height: 26px;
+    background-image: url('../../IMG/pordutos/promos/bolsa_preta_classica/imagem_de_favorito.svg');
+    position: relative;
+    left: 445px;
+    top: -104px;
+}
+
 /*botão adicionar a sacola*/
 #produto_adicionar_a_sacola {
     background-color: black;
@@ -75,4 +85,48 @@
     font-size: 17px;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
+}
+
+/*parte escrita vinkings*/
+
+#artcle_do_vendidos_por_vinkings {
+    position: relative;
+    top: 123px;
+}
+
+/*parte do vikings*/
+#paragrafo_do_vendidos_por_vinkings {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#span_do_vikings {
+    color: #DB001B;
+}
+
+/*parte do +100vendas*/
+#parte_escrita_100_vendas {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+/*parte dos articles*/
+#artcle_dos_detalhes{
+    display: flex;
+    flex-direction: column;
+    top: 235px;
+    position: relative;
+    row-gap: 20px;
+}
+
+#artcle_dos_detalhes > p {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+font-weight: 500;
+}
+
+#artcle_dos_detalhes > hr {
+    color: black;
+    opacity: 40%;
 }
