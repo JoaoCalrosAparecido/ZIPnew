@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+#paragrafo_das_fot0s_classica {
+    position: relative;
+    top: 154px;
+    left: 10%;
+
+}
+
+#paragrafo_das_fot0s_classica > p {
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#paragrafo_das_fot0s_classica_span {
+    font-weight: 600;
+}
+
 #section_da_foto_da_bolsa {
     width: 1020px;
     height: auto; /* Mudei a altura para auto para permitir o espaçamento adequado */
@@ -9,7 +29,7 @@
     column-gap: 3px;
     position: relative;
     left: 10.44%;
-    top: 130px;
+    top: 170px;
 }
 
 .foto_da_bolsa {
