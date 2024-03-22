@@ -132,6 +132,7 @@
 .linha_do_entre_no_mundo_zip {
     position: relative;
     top: -12PX;
+    opacity: 40%;
 }
 
 /* escrita entre no mundo zip */
