@@ -1,13 +1,13 @@
 .login_inteiro {
     position: relative;
-    top: 420px;
+    top: 450px;
     right: 0%;
 
 }
 
 
 #Login {
-  background-color: #EEEEEE;
+  background-color: #d6d4d4;
   max-width: 400px;
   width: 70%;
   padding: 20px;
@@ -87,7 +87,7 @@ form input[type=password] {
 #sign {
     font-size: 22px;
     font-family: 'Lucida Sans Unicode', Arial, sans-serif;
-    margin-top: 55px;
+    margin-top: 35px;
     margin-bottom: 25px;
 }
 
