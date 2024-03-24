@@ -131,12 +131,15 @@
                 <P id="parte_cor_bolsa_Preta">COR:  <span id="parte_cor_bolsa_Preta_span">Preto</span></P>
             </article>
 
-            <article id="imagem_de_favorito"></article>
+            <a href="cart.html">
+                <article id="imagem_de_favorito"></article>
+            </a>
 
             <article>
-                <button id="produto_adicionar_a_sacola" type="button">
-                    <p>ADICIONAR À SACOLA</p>
-                </button>
+                    <button id="produto_adicionar_a_sacola" class="add-to-cart" onclick="addToCart('Vestido Floral', 30)">
+                        <p>ADICIONAR À SACOLA</p>
+                    </button>
+
             </article>
 
             <article id="artcle_do_vendidos_por_vinkings">
@@ -157,6 +160,9 @@
             </article>
         </section>
     </section>
+
+    <script src="javascript/index.js"></script>
+
 
     <!--voce pode gostar-->
     <section id="parte_do_voce_pode_gostar">
@@ -203,6 +209,7 @@
 
         </figure>
     </section>
+    
 
         <!--STORIES RECENTES-->
         <section class="stories_recentes">
