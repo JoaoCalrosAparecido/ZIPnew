@@ -37,7 +37,9 @@
 button {
     position: relative;
     left: 400px;
-    border: 2px solid black;
+    width: 24px;
+    height: 24px;
+    border: none;
     background-color: white;
-    background-image: url('../../IMG/area_do_menu/icone_de_pesquisa.svg');
+    background-image: url('../../IMG/sacola/produtos/x_para_remover_refeito.png');
 }

@@ -4,23 +4,131 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrinho</title>
+    <link rel="stylesheet" href="css2_parte_do_cart/body.css">
     <link rel="stylesheet" href="css2_parte_do_cart/cart-styles.css">
+    <link rel="stylesheet" href="css2_parte_do_cart/linha_sacola.css">
+    <link rel="stylesheet" href="css2_parte_do_cart/parte_superior.css">
+    <link rel="stylesheet" href="css2_parte_do_cart/menu.css">
+    <link rel="stylesheet" href="css2_parte_do_cart/menu_retratio.css">
+    <link rel="stylesheet" href="css2_parte_do_cart/parte_da_sacola.css">
+    <link rel="stylesheet" href="css2_parte_do_cart/sacola_subtotal.css">
 </head>
 <body>
-    <header>
-        <h1>Carrinho</h1>
-        <nav>
-            <a href="index.html">Loja</a>
-            <a href="cart.html">Carrinho</a>
-        </nav>
-    </header>
-    <div class="container" id="cart-items">
-        <!-- Cart items will be dynamically added here -->
-    </div>
-    <div class="total">
-        <p>Total: R$ <span id="total-price">0</span></p>
-    </div>
+        <!-- parte superior do desconto na primeira compra -->
+        <section id="section_parte_superior">
+            <article>
+                <article id="parte_superior">
+                    <p>10% OFF* na primeira compra. Utilize o cupom QueroMaisDez!  </p> 
+                </article>
+                <!--parte das setas-->
+                <article class="setas_parte_superior">
+                    <img class="seta_esquerda_parte_superior" src="../IMG/parte superior do desconto na primeira compra REFEITO/seta_esquerda.svg" alt="">
+                    <img class="seta_direita_parte_superior" src="../IMG/parte superior do desconto na primeira compra REFEITO/seta_direita.svg" alt="">
+                </article>
+            </article>
+        </section>
+
+            <!--menu principal-->
+    <section id="menu_principal_como_todo">
+        <!--area do menu que contem os links-->
+        <article id="menu_principal">
+            <section id="section_menu_principal">
+                <a href="../bazar.html" class="links_do_menu1">BAZAR</a>
+                    <a href="" class="links_do_menu2">VENDER</a>
+                    <section id="section_menu_retratio">
+                        <section id="section_do_menu_retratio_2">
+                            <!--parte das imagens-->
+                            <figure id="figure_imagens_menu_retratio">
+                                <figure id="menu_retratio_imagem1">
+                                    <img width="230px" src="../IMG/menu_retratio/imagem_1.png" alt=""> <figcaption class="parte_escrita_figcaption">
+                                        Bazar Nick DJ
+                                    </figcaption>
+                                </figure>
+                        
+                        
+                                <figure id="menu_retratio_imagem2">
+                                    <img height="356px" src="../IMG/menu_retratio/imagem2.png" alt=""> <figcaption class="parte_escrita_figcaption">
+                                        Moda Passarela
+                                    </figcaption>
+                                </figure>
+                            </figure>
+                            <!--parte das listas-->
+                            <article id="article_menu_retratio_lista">
+                                <ul id="menu_retratio_ul1"><p id="menu_retratio_ul1_p">Venda na zip</p>
+                                    <li class="menu_retratio_lista1">Saiba como vender</li>
+                                    <li class="menu_retratio_lista1">Dicas de como vender bem</li>
+                                    <li class="menu_retratio_lista1">Mais sobre comisssão</li>
+                                </ul>
+                                <ul id="menu_retratio_ul2"><p id="menu_retratio_ul2_p">Bazar</p>
+                                    <li class="menu_retratio_lista2">Veja como montar o seu</li>
+                                    <li class="menu_retratio_lista2">bazar na zip</li>
+                                </ul>
+                                <ul id="menu_retratio_ul3"><p id="menu_retratio_ul3_p">Ajuda</p>
+                                    <li class="menu_retratio_lista3">Não recebi minha compra</li>
+                                    <li class="menu_retratio_lista3">Tenho dúvidas</li>
+                                </ul>
+                            </article>
+                            <!--parte escrita zip marketplace-->
+                            <article id="parte_escrita_menu_retratio">
+                                <img width="320px" src="IMG/menu_retratio/parte_escrita_refeito.png" alt="">
+                            </article>
+                        </section>
+                    </section>
+                <a href="" class="links_do_menu3">FEMININO</a>
+                <a href="" class="links_do_menu4">MASCULINO</a>
+                <a href="" class="links_do_menu5">INFANTIL</a>
+                <a href="" class="links_do_menu6">ACESSÓRIOS</a>
+            </section>
+        </article>
+        
+
+
+        <!--logo zip-->
+        <a href="../index.html">
+        <figure id="logo_zip_menu">
+                <img id="logo_zip_menu_imagem" src="" alt="">
+        </figure>
+        </a>
+        
+        
+
+
+        <!--imagem da barra de pesquisa e etc-->
+        <article id="barra_de_pesquisa_e_etc">
+            <figure id="imagem_da_barra_de_pesquisa_e_etc">
+                <figure id="imagem_da_barra_de_pesquisa"></figure>
+
+                <figure id="imagem_do_icone_de_favorito"></figure>
+
+                <a href="login_do_usuario.html"><figure id="imagem_do_icone_de_pessoa"></figure></a>
+                
+                <figure id="imagem_do_icone_da_sacola"></figure>
+            </figure>
+        </article>
+
+
+    </section>
+
+    <!--sacola subtotal-->
+    <section id="section_sacola_subtotal">
+        <p>SACOLA</p>
+        <p>Subtotal: R$ <span id="total-price">0</span></p>
+    </section>
+
+    
+</section>
+
+    <section id="section_da_parte_da_sacola">
+        <div class="container" id="cart-items">
+            <!-- Cart items will be dynamically added here -->
+        </div>
+        <div class="total">
+            <p>Total: R$ <span id="total-price">0</span></p>
+        </div>
+    </section>
+
 
     <script src="javascript/cart.js"></script>
+    <script src="javascript/index.js"></script>
 </body>
 </html>
