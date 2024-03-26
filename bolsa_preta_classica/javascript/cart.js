@@ -5,22 +5,28 @@ document.addEventListener('DOMContentLoaded', function() {
 function updateCart() {
     const cartContainer = document.getElementById('cart-items');
     const totalContainer = document.getElementById('total-price');
+    const otherTotalContainer = document.getElementById('other-total-price'); // Nova span para o preço total adicional
     let cartItems = localStorage.getItem('cartItems');
     cartItems = cartItems ? JSON.parse(cartItems) : [];
     let totalPrice = 0;
-    
+
     cartContainer.innerHTML = '';
     cartItems.forEach((item, index) => {
         const cartItem = document.createElement('div');
-        cartItem.classList.add('cart-item'); // Adiciona a classe 'cart-item'
+        cartItem.classList.add('cart-item');
         
-        const productImage = document.createElement('img'); // Cria uma imagem
-        productImage.src = '../../IMG/sacola/produtos/bolsa.png'; // Define o src da imagem como 'bolsa.png'
-        productImage.alt = item.name; // Define o alt da imagem
-        cartItem.appendChild(productImage); // Adiciona a imagem ao item do carrinho
+        const productImage = document.createElement('img');
+        productImage.src = '../../IMG/sacola/produtos/bolsa.png';
+        productImage.alt = item.name;
+        cartItem.appendChild(productImage);
         
         const productInfo = document.createElement('div');
-        productInfo.innerHTML = `<h3>BOLSA PRETA CLÁSSICA</h3><h2>${item.name}</h2><p>Preço: R$ ${item.price.toFixed(2)}</p>`;
+        productInfo.innerHTML = `<h3>BOLSA PRETA CLÁSSICA</h3><h2>${item.name}</h2><p>R$ ${item.price.toFixed(2)}</p>
+        <p id="cor_preta">Cor: Preta </p>
+        <h1>
+        <img id="coracao_mover"  src="../../IMG/sacola/produtos/coracao_escrito_mover_par_uma_lista_de_desejos.svg" alt="Descrição da Imagem">
+        Mover para a wishlist
+    </h1>`;
         cartItem.appendChild(productInfo);
         
         const removeButton = document.createElement('button');
@@ -35,6 +41,7 @@ function updateCart() {
     });
 
     totalContainer.textContent = totalPrice.toFixed(2);
+    otherTotalContainer.textContent = totalPrice.toFixed(2); // Exibir o preço total em outra span
 }
 
 function removeFromCart(index) {
@@ -44,5 +51,3 @@ function removeFromCart(index) {
     localStorage.setItem('cartItems', JSON.stringify(cartItems));
     updateCart();
 }
-
-

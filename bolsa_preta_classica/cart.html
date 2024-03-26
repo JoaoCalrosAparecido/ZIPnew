@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css2_parte_do_cart/menu_retratio.css">
     <link rel="stylesheet" href="css2_parte_do_cart/parte_da_sacola.css">
     <link rel="stylesheet" href="css2_parte_do_cart/sacola_subtotal.css">
+    <link rel="stylesheet" href="css2_parte_do_cart/resumo_&_pix.css">
 </head>
 <body>
         <!-- parte superior do desconto na primeira compra -->
@@ -111,8 +112,19 @@
 
     <!--sacola subtotal-->
     <section id="section_sacola_subtotal">
-        <p>SACOLA</p>
-        <p>Subtotal: R$ <span id="total-price">0</span></p>
+        <article>
+            <p id="parte_escrita_sacola">SACOLA</p>
+            <p id="parte_escrita_subtotal">Subtotal: R$ <span id="total-price">0</span></p>
+        </article>
+    </section>
+
+    <!--linha primaria-->
+    <section id="section_linha_primaria">
+        <article>
+            <p id="Parte_escrita_sacola_linha_primaria">Sacola (1)</p>
+            <article id="barra_da_linha_primaria"></article>
+            <hr id="linha_primaria">
+        </article>
     </section>
 
     
@@ -123,12 +135,72 @@
             <!-- Cart items will be dynamically added here -->
         </div>
         <div class="total">
-            <p>Total: R$ <span id="total-price">0</span></p>
+            <p>Total: R$ <span id="total-price1">0</span></p>
         </div>
+    </section>
+
+    <!--parte do resumo e pix-->
+    <section id="section_do_resumo_e_do_pix">
+
+        <section id="position_sticky">
+            <article id="artcle_resumo_do_pedido">
+                <section id="parte_do_section_distancia_da_esquerda">
+                    <!--escrita resumo do pedido-->
+                    <article id="section_parte_escrita_resumo_do_pedido">
+                        <p id="parte_escrita_resumo_do_pedido">RESUMO DO PEDIDO</p>
+                    </article>
+                    <!--paragrafos-->
+                    <article class="paragrafo_resumo_display_felex">
+                        <p class="paragrafo_resumo">Subtotal:</p>
+                        <p class="paragrafo_resumo paragrafo_resumo_direita">R$ </p>
+                    </article>
+                    <article class="paragrafo_resumo_display_felex">
+                        <p class="paragrafo_resumo">Adicionar cupom +</p>
+                        <p class="paragrafo_resumo paragrafo_resumo_direita">--</p>
+                    </article>
+                    <article class="paragrafo_resumo_display_felex">
+                        <p class="paragrafo_resumo">Endereço (1)</p>
+                        <p class="paragrafo_resumo paragrafo_resumo_direita">--</p>
+                    </article>
+                    <article id="article_linha_resumo">
+                        <hr id="linha_resumo">
+                    </article>
+                    <article class="paragrafo_resumo_display_felex">
+                        <p class="paragrafo_resumo parte_do_total">Total:</p>
+                        <p class="paragrafo_resumo paragrafo_resumo_direita parte_do_total">R$ <span id="other-total-price">0</span></p>
+                    </article>
+                    <!--parte do botão-->
+                    <article id="botao_do_finalizar_resumo">
+                        <P id="paragrafo_do_botao_do_finalizar_resumo">FINALIZAR</P>
+                    </article>
+                </section>
+            </article>
+            <!--pix-->
+            <article id="article_do_pix">
+                <article id="article_forma_de_pagamento">
+                    <p id="paragrafo_forma_de_pagamento">FORMA DE PAGAMENTO</p>
+                </article>
+
+                <article id="imagem_do_pix">
+                    <img width="72px" src="../IMG/sacola/pix/imagem_do_pix.png" alt="">
+                </article>
+
+                <article id="article_entrega">
+                    <p id="paragrafo_entrega">ENTREGA</p>
+                </article>
+
+                <article id="article_receba_ate_3">
+                    <p id="paragrafo_receba_ate_3">receba até 3-5 dias úteis</p>
+                </article>
+
+            </article>
+        </section>
+
     </section>
 
 
     <script src="javascript/cart.js"></script>
+    <script src="javascript/cart2.js"></script>
     <script src="javascript/index.js"></script>
 </body>
 </html>
