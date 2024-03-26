@@ -131,6 +131,45 @@
 
 #paragrafo_receba_ate_3 {
     font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+/*vinkings*/
+#article_vinkings {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#paragrafo_vinkings {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+#span_vinkings {
+    color: #D9001B;
+}
+
+/*7 dias após a coleta*/
+#article_7_dias {
+    text-align: center;
+}
+
+#paragrafo_7_dias {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+/*Preciso de ajuda*/
+#article_preciso_de_ajuda {
+    text-align: center;
+    padding: 30px;
+}
+
+#paragrafo_preciso_de_ajuda {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: black;
 }
 
 /*imagem do pix*/
