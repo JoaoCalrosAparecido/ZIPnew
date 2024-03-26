@@ -5,7 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
 function updateCart() {
     const cartContainer = document.getElementById('cart-items');
     const totalContainer = document.getElementById('total-price');
-    const otherTotalContainer = document.getElementById('other-total-price'); // Nova span para o preço total adicional
+    const otherTotalContainer1 = document.getElementById('other-total-price-1'); // Novo span para o preço total adicional
+    const otherTotalContainer2 = document.getElementById('other-total-price-2'); // Novo span para o preço total adicional
     let cartItems = localStorage.getItem('cartItems');
     cartItems = cartItems ? JSON.parse(cartItems) : [];
     let totalPrice = 0;
@@ -41,7 +42,8 @@ function updateCart() {
     });
 
     totalContainer.textContent = totalPrice.toFixed(2);
-    otherTotalContainer.textContent = totalPrice.toFixed(2); // Exibir o preço total em outra span
+    otherTotalContainer1.textContent = totalPrice.toFixed(2); // Exibir o preço total em outro span
+    otherTotalContainer2.textContent = totalPrice.toFixed(2); // Exibir o preço total em outro span
 }
 
 function removeFromCart(index) {

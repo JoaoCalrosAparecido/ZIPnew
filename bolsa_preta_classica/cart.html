@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css2_parte_do_cart/parte_da_sacola.css">
     <link rel="stylesheet" href="css2_parte_do_cart/sacola_subtotal.css">
     <link rel="stylesheet" href="css2_parte_do_cart/resumo_&_pix.css">
+    <link rel="stylesheet" href="css2_parte_do_cart/voce_pode_gostar.css">
+    <link rel="stylesheet" href="css2_parte_do_cart/slide.css">
 </head>
 <body>
         <!-- parte superior do desconto na primeira compra -->
@@ -152,7 +154,7 @@
                     <!--paragrafos-->
                     <article class="paragrafo_resumo_display_felex">
                         <p class="paragrafo_resumo">Subtotal:</p>
-                        <p class="paragrafo_resumo paragrafo_resumo_direita">R$ </p>
+                        <p class="paragrafo_resumo paragrafo_resumo_direita">R$ <span id="other-total-price-2">0</span> </p>
                     </article>
                     <article class="paragrafo_resumo_display_felex">
                         <p class="paragrafo_resumo">Adicionar cupom +</p>
@@ -167,7 +169,7 @@
                     </article>
                     <article class="paragrafo_resumo_display_felex">
                         <p class="paragrafo_resumo parte_do_total">Total:</p>
-                        <p class="paragrafo_resumo paragrafo_resumo_direita parte_do_total">R$ <span id="other-total-price">0</span></p>
+                        <p class="paragrafo_resumo paragrafo_resumo_direita parte_do_total">R$ <span id="other-total-price-1">0</span></p>
                     </article>
                     <!--parte do botão-->
                     <article id="botao_do_finalizar_resumo">
@@ -212,6 +214,26 @@
 
     </section>
 
+    <!--linha secundaria-->
+    <section id="section_linha_secundaria">
+        <hr id="linha_secundaria">
+    </section>
+
+    <!--voce pode gostar-->
+    <section id="section_voce_pode_gostar">
+        <article id="article_voce_pode_gostar">
+            <p id="paragrafo_voce_pode_gostar">VOCÊ PODE GOSTAR</p>
+            <p id="paragrafo_vistos_recente">VISTAS RECENTEMENTE</p>
+        </article>
+
+        <!--barra-->
+        <article id="barra_do_voce_pode_gostar"></article>
+    </section>
+
+    <!--slide-->
+    <section id="section_slide">
+
+    </section>
 
     <script src="javascript/cart.js"></script>
     <script src="javascript/cart2.js"></script>

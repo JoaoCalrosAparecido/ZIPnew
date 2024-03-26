@@ -4,7 +4,7 @@
 /*linha primaria*/
 #section_linha_primaria {
     position: relative;
-    top: 300px;
+    top: 202px;
     left: 4.9%;
 }
 
@@ -29,3 +29,14 @@
     width: 1230px;
 }
 
+/*linha secundaria*/
+
+#section_linha_secundaria{
+    position: relative;
+    top: 185px;
+    left: 4.9%;
+}
+
+#linha_secundaria {
+    width: 1230px;
+}
