@@ -1,10 +1,10 @@
 #boxG{
-    background-color: #f8f8f8;
+    background-color: #f7f7f7;
     max-width: 979px;
     width: 100%;
     padding: 50px;
     position: absolute;
-    top: 42%;
+    top: 46%;
     left: 50%;
     transform: translate(-50%,-50%);
     font-family: 'Lucida Sans Unicode', Arial, sans-serif;
@@ -17,13 +17,13 @@
 
 #Mid{
     display: flex;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .inputs{
     width: 979px;
-    height: 41px;
-    margin-top: 20px;
+    height: 36px;
+    margin-top: 18px;
     font-size: 16px;
     border-width: 1px;
     color: #999999;
@@ -31,8 +31,18 @@
 }
 
 #rr{
-    margin-right: 245px;
+    margin-left: 8px;
+    margin-right: 286px;
+    font-size: 14px;
 }
 #pp{
-    margin-right: 275px;
+    margin-right: 330px;
+    font-size: 13px;
+}
+#tt{
+    font-size: 13px;
+}
+
+#adress{
+    margin-top: 25px;
 }
