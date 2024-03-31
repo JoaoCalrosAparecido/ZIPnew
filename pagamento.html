@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css-pagamento/estado.css">
     <link rel="stylesheet" href="css-pagamento/pix.css">
     <script src="./pagamento_script/script.js" defer></script>
+    <script src="./pagamento_script/script2.js" defer></script>
 
     <link rel="shortcut icon" href="IMG/fivecon/logo preta grande.ico" type="image/x-icon">
 </head>
@@ -107,8 +108,26 @@
         <br>
         <hr style="height:0.5px;border-width:0;color:#EAEAEA;background-color:#EAEAEA">
 
-        <article>
-            <p></p>
-        </article>
+
+        <section>
+            <article id="ppagg">
+                <p id="forma">Forma de Pagamento</p>
+                <img class="pay_" src="IMG/pagamento/pix.png" width="40px">
+            </article>
+                <article>
+                    <form id="pixForm">
+                        <input type="text" name="nome" id="nome" maxlength="40" placeholder="    Nome Completo*" class=" required" oninput="nameValidate()">
+                        <br>
+                        <input type="text" name="nome" id="nome" maxlength="40" placeholder="    Nome Completo*" class=" required" oninput="nameValidate()">
+                        <input type="text" name="nome" id="nome" maxlength="40" placeholder="    Nome Completo*" class=" required" oninput="nameValidate()">
+                        <br>
+
+                            <input type="text" id="chavePix" placeholder="Digite a chave PIX" required>
+                            <input type="number" id="valor" placeholder="Digite o valor" required>
+                            <button type="submit">Efetuar compra</button>
+                    </form>
+                </article>
+        </section>
+
 
     </section>
