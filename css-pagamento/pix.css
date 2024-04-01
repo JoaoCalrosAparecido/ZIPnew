@@ -83,17 +83,17 @@ font-family: 'Poppins', sans-serif;
 }
 
 #all{
-    margin-right: 340px;
+    margin-right: 330px;
     font-size: 15px;
 }
 #custo{
     font-size: 15px;
 }
 #Dess{
-    margin-right: 340px;
+    margin-right: 330px;
 }
 #drete{
-    margin-right: 383px;
+    margin-right: 373px;
 }
 
 #UwU, #Uww{
@@ -108,4 +108,10 @@ font-family: 'Poppins', sans-serif;
 #a, #b, #c{
     margin-top: 40px;
     margin-right: 25px;
+}
+
+#mensagem{
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
 }
