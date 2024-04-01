@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css-pagamento/pix.css">
     <script src="./pagamento_script/script.js" defer></script>
     <script src="./pagamento_script/script2.js" defer></script>
+    <script src="./pagamento_script/validar.js" defer></script>
 
     <link rel="shortcut icon" href="IMG/fivecon/logo preta grande.ico" type="image/x-icon">
 </head>
@@ -94,7 +95,7 @@
                 <article id="slots">
                     <input type="text" name="cep" id="cep" size="15" maxlength="9" placeholder="CEP*" class="inputs required" oninput="cepValidate()"> 
                     <br>
-                    <input type="text" name="casa" id="casa" size="15" maxlength="9" placeholder="Número da Casa*" class="inputs required" oninput="EstadoValidate()">
+                    <input type="number" name="casa" id="casa" size="15" maxlength="9" placeholder="Número da Casa*" class="inputs required" oninput="numValidate()">
                 </article>
         </article>
         <br>
@@ -119,8 +120,8 @@
                     <form id="pixForm">
                         <input type="text" name="nome" id="nome" maxlength="40" placeholder="Nome*" class="inpu required" oninput="nameValidate()">
                         <br>
-                        <input type="text" name="mes" id="mes" maxlength="40" placeholder="Mês*" class="input required" oninput="nameValidate()">
-                        <input type="text" name="ano" id="ano" maxlength="40" placeholder="Ano*" class="input required" oninput="nameValidate()">
+                        <input type="number" name="mes" id="mes" maxlength="40" placeholder="Mês*" class="input required" oninput="mesValidate()">
+                        <input type="number" name="ano" id="ano" maxlength="40" placeholder="Ano*" class="input required" oninput="anoValidate()">
                         <br>
 
                             <input type="text" id="chavePix" placeholder="Digite a chave PIX" class="inpu required" required>
